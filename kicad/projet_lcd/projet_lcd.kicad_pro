@@ -386,6 +386,14 @@
     [
       "b3ce22de-813e-4a84-80c2-bec39c904000",
       "Root"
+    ],
+    [
+      "0cc74708-7f59-477d-8b27-7fc8c1cb4983",
+      "Ethernet"
+    ],
+    [
+      "4cd1692b-280a-46ef-a0ce-bb76541e4c5a",
+      "POE"
     ]
   ],
   "text_variables": {}
