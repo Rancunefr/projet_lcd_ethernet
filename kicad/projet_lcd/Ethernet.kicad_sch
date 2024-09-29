@@ -5878,7 +5878,7 @@
 	)
 	(wire
 		(pts
-			(xy 253 37) (xy 253 32)
+			(xy 250.5 59) (xy 250.5 54)
 		)
 		(stroke
 			(width 0)
@@ -6848,7 +6848,7 @@
 	)
 	(wire
 		(pts
-			(xy 261 32) (xy 261 37)
+			(xy 258.5 54) (xy 258.5 59)
 		)
 		(stroke
 			(width 0)
@@ -9994,7 +9994,7 @@
 	(symbol
 		(lib_name "GND_6")
 		(lib_id "Power:GND")
-		(at 253 37 0)
+		(at 250.5 59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10003,7 +10003,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a4d2adb-d82b-49a3-8889-2f8cfa26d8e4")
 		(property "Reference" "#PWR029"
-			(at 253 43.35 0)
+			(at 250.5 65.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10012,7 +10012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 253 40.81 0)
+			(at 250.5 62.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10021,7 +10021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 253 37 0)
+			(at 250.5 59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,7 +10030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 253 37 0)
+			(at 250.5 59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +10039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.54 47.668 0)
+			(at 253.04 69.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,7 +10961,7 @@
 	)
 	(symbol
 		(lib_id "Power:CHASSIS")
-		(at 261 37 0)
+		(at 258.5 59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10970,7 +10970,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bacae26-4d00-457e-8c2a-73e7c780defa")
 		(property "Reference" "#PWR030"
-			(at 261 43.35 0)
+			(at 258.5 65.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,7 +10979,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 261 40.81 0)
+			(at 258.5 62.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,7 +10988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261 37 0)
+			(at 258.5 59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +10997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261 37 0)
+			(at 258.5 59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,7 +11006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , ground"
-			(at 263.54 47.668 0)
+			(at 261.04 69.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13105,7 +13105,7 @@
 	)
 	(symbol
 		(lib_id "Generiques:R")
-		(at 261 32 90)
+		(at 258.5 54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13113,7 +13113,7 @@
 		(dnp no)
 		(uuid "e255c6e7-2dea-4c0b-97ae-54586c4666ac")
 		(property "Reference" "R24"
-			(at 257 35 90)
+			(at 254.5 57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13121,7 +13121,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 257 30 90)
+			(at 254.5 52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13129,7 +13129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.254 30.984 90)
+			(at 254.754 52.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13138,7 +13138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257 32 0)
+			(at 254.5 54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13147,7 +13147,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261 32 0)
+			(at 258.5 54 0)
 			(effects
 				(font
 					(size 1.27 1.27)

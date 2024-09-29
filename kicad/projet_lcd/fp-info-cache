@@ -1,8 +1,1100 @@
-1722344196418
+270729839978776
+Connectors
+KH-BNC50-3511
+
+BNC 50R
+0
+4
+4
+Generics
+C_0201
+[EIA 0603]
+
+0
+2
+2
+Generics
+C_0402
+[EIA 1005]
+
+0
+2
+2
+Generics
+C_0603
+[EIA 1608]
+
+0
+2
+2
+Generics
+C_0805
+[EIA 2012]
+
+0
+2
+2
+Generics
+C_1206
+[EIA 3216]
+
+0
+2
+2
+Generics
+C_1210
+[EIA 3225]
+
+0
+2
+2
+Generics
+C_ALU_B
+Based on Panasonic - B size
+
+0
+2
+2
+Generics
+C_ALU_C
+Based on Panasonic - C size
+
+0
+2
+2
+Generics
+C_ALU_D
+Based on Panasonic - D size
+
+0
+2
+2
+Generics
+C_ALU_D8
+Based on Panasonic - D8 size
+
+0
+2
+2
+Generics
+C_ALU_E
+Based on Panasonic - E size
+
+0
+2
+2
+Generics
+C_ALU_F
+Based on Panasonic - F size
+
+0
+2
+2
+Generics
+C_ALU_G
+Based on Panasonic - G size
+
+0
+2
+2
+Generics
+C_ALU_G13
+Based on Panasonic - G13 size
+
+0
+2
+2
+Generics
+C_ALU_G17
+Based on Panasonic - G17 size
+
+0
+2
+2
+Generics
+C_ALU_H13
+Based on Panasonic - H13 size
+
+0
+2
+2
+Generics
+C_ALU_H16
+Based on Panasonic - H16 size
+
+0
+2
+2
+Generics
+C_ALU_J16
+Based on Panasonic - J16 size
+
+0
+2
+2
+Generics
+C_ALU_J21
+Based on Panasonic - J21 size
+
+0
+2
+2
+Generics
+C_ALU_K16
+Based on Panasonic - K16 size
+
+0
+2
+2
+Generics
+C_ALU_K21
+Based on Panasonic - K21 size
+
+0
+2
+2
+Generics
+C_tantalum_A
+[EIA 3216-18]
+
+0
+2
+2
+Generics
+C_tantalum_B
+[EIA 3528-21]
+
+0
+2
+2
+Generics
+C_tantalum_C
+[EIA 6032-25]
+
+0
+2
+2
+Generics
+C_tantalum_D
+[EIA 7343-31]
+
+0
+2
+2
+Generics
+C_tantalum_E
+[EIA 7360-38]
+
+0
+2
+2
+Generics
+C_tantalum_M
+[EIA 3528-15]
+
+0
+2
+2
+Generics
+C_tantalum_S
+[EIA 3216-12]
+
+0
+2
+2
+Generics
+C_tantalum_T
+[EIA 3528-12]
+
+0
+2
+2
+Generics
+C_tantalum_U
+[EIA 6032-15]
+
+0
+2
+2
+Generics
+C_tantalum_V
+[EIA 7343-20]
+
+0
+2
+2
+Generics
+C_tantalum_W
+[EIA 7343-15]
+
+0
+2
+2
+Generics
+C_tantalum_X
+[EIA 7343-43]
+
+0
+2
+2
+Generics
+D_LED_0402
+Generic LED 0402
+
+0
+2
+2
+Generics
+D_LED_0603
+Generic LED 0603
+
+0
+2
+2
+Generics
+D_LED_0805
+Generic LED 0805
+
+0
+2
+2
+Generics
+Header_1x02_2.54_TH
+Header TH 2.54mm
+
+0
+2
+2
+Generics
+Header_1x02_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+2
+2
+Generics
+Header_1x03_2.54_TH
+Header TH 2.54mm
+
+0
+3
+3
+Generics
+Header_1x03_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+3
+3
+Generics
+Header_1x04_2.54_TH
+Header TH 2.54mm
+
+0
+4
+4
+Generics
+Header_1x04_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+4
+4
+Generics
+Header_1x05_2.54_TH
+Header TH 2.54mm
+
+0
+5
+5
+Generics
+Header_1x05_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+5
+5
+Generics
+Header_1x06_2.54_TH
+Header TH 2.54mm
+
+0
+6
+6
+Generics
+Header_1x06_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+6
+6
+Generics
+Header_1x07_2.54_TH
+Header TH 2.54mm
+
+0
+7
+7
+Generics
+Header_1x07_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+7
+7
+Generics
+Header_1x08_2.54_TH
+Header TH 2.54mm
+
+0
+8
+8
+Generics
+Header_1x08_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+8
+8
+Generics
+Header_1x09_2.54_TH
+Header TH 2.54mm
+
+0
+9
+9
+Generics
+Header_1x09_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+9
+9
+Generics
+Header_1x10_2.54_TH
+Header TH 2.54mm
+
+0
+10
+10
+Generics
+Header_1x10_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+10
+10
+Generics
+Header_1x11_2.54_TH
+Header TH 2.54mm
+
+0
+11
+11
+Generics
+Header_1x11_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+11
+11
+Generics
+Header_1x12_2.54_TH
+Header TH 2.54mm
+
+0
+12
+12
+Generics
+Header_1x12_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+12
+12
+Generics
+Header_1x13_2.54_TH
+Header TH 2.54mm
+
+0
+13
+13
+Generics
+Header_1x13_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+13
+13
+Generics
+Header_1x14_2.54_TH
+Header TH 2.54mm
+
+0
+14
+14
+Generics
+Header_1x14_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+14
+14
+Generics
+Header_1x15_2.54_TH
+Header TH 2.54mm
+
+0
+15
+15
+Generics
+Header_1x15_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+15
+15
+Generics
+Header_1x16_2.54_TH
+Header TH 2.54mm
+
+0
+16
+16
+Generics
+Header_1x16_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+16
+16
+Generics
+Header_2x02_2.54_TH_1
+Header TH 2.54mm
+
+0
+4
+4
+Generics
+Header_2x02_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+4
+4
+Generics
+Header_2x03_2.54_TH
+Header TH 2.54mm
+
+0
+6
+6
+Generics
+Header_2x03_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+6
+6
+Generics
+Header_2x04_2.54_TH
+Header TH 2.54mm
+
+0
+8
+8
+Generics
+Header_2x04_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+8
+8
+Generics
+Header_2x05_2.54_TH
+Header TH 2.54mm
+
+0
+10
+10
+Generics
+Header_2x05_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+10
+10
+Generics
+Header_2x06_2.54_TH
+Header TH 2.54mm
+
+0
+12
+12
+Generics
+Header_2x06_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+12
+12
+Generics
+Header_2x07_2.54_TH
+Header TH 2.54mm
+
+0
+14
+14
+Generics
+Header_2x07_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+14
+14
+Generics
+Header_2x08_2.54_TH
+Header TH 2.54mm
+
+0
+16
+16
+Generics
+Header_2x08_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+16
+16
+Generics
+Header_2x09_2.54_TH
+Header TH 2.54mm
+
+0
+18
+18
+Generics
+Header_2x09_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+18
+18
+Generics
+Header_2x10_2.54_TH
+Header TH 2.54mm
+
+0
+20
+20
+Generics
+Header_2x10_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+20
+20
+Generics
+Header_2x11_2.54_TH
+Header TH 2.54mm
+
+0
+22
+22
+Generics
+Header_2x11_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+22
+22
+Generics
+Header_2x12_2.54_TH
+Header TH 2.54mm
+
+0
+24
+24
+Generics
+Header_2x12_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+24
+24
+Generics
+Header_2x13_2.54_TH
+Header TH 2.54mm
+
+0
+26
+26
+Generics
+Header_2x13_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+26
+26
+Generics
+Header_2x14_2.54_TH
+Header TH 2.54mm
+
+0
+28
+28
+Generics
+Header_2x14_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+28
+28
+Generics
+Header_2x15_2.54_TH
+Header TH 2.54mm
+
+0
+30
+30
+Generics
+Header_2x15_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+30
+30
+Generics
+Header_2x16_2.54_TH
+Header TH 2.54mm
+
+0
+32
+32
+Generics
+Header_2x16_2.54_TH_labels
+Header TH 2.54mm with labels
+
+0
+32
+32
+Generics
+R_0201
+[EIA 0603]
+
+0
+2
+2
+Generics
+R_0402
+[EIA 1005]
+
+0
+2
+2
+Generics
+R_0603
+[EIA 1608]
+
+0
+2
+2
 Generics
 R_0805
+[EIA 2012]
+
+0
+2
+2
+Generics
+R_1206
+[EIA 3216]
+
+0
+2
+2
+Generics
+R_1210
+[EIA 3225]
+
+0
+2
+2
+Generics
+R_2010
+[EIA 5025]
+
+0
+2
+2
+Generics
+R_2512
+[EIA 6332]
+
+0
+2
+2
+Generics
+SC70-3
+[SC-70, SOT-323, SOT323-3]
+
+0
+3
+3
+Generics
+SC70-4
 
 
 0
+4
+4
+Generics
+SC70-5
+[SOT323-5]
+
+0
+5
+5
+Generics
+SC70-6
+[SOT323-6]
+
+0
+6
+6
+Generics
+SC88
+[SOT363, MO-203AB]
+
+0
+6
+6
+Generics
+SMA
+[DO-214AC]
+
+0
+2
+2
+Generics
+SMB
+[DO-214AA]
+
+0
+2
+2
+Generics
+SMC
+[DO-214AB]
+
+0
+2
+2
+Generics
+SOD-123
+
+
+0
+2
+2
+Generics
+SOD-123F
+Pad style leads
+
+0
+2
+2
+Generics
+SOD-323
+
+
+0
+2
+2
+Generics
+SOD-323F
+Pad style leads
+
+0
+2
+2
+Generics
+SOD-523
+
+
+0
+2
+2
+Generics
+SOD-923
+[JEITA SC-116A]
+
+0
+2
+2
+Generics
+SOT-23-3
+[SOT-23]
+
+0
+3
+3
+Generics
+SOT-23-5
+[RJ-5, JEITA SC-74A, SOT-753, SOT-25]
+
+0
+5
+5
+Generics
+SOT-23-6
+[RJ-6, JEITA SC-74, SMT6, SOT-457, SOT-26]
+
+0
+6
+6
+Generics
+SOT-23-8
+[RJ-8, SM8, SOT-28]
+
+0
+8
+8
+Logos
+Logo_CE_6
+Logo CE 6mm
+
 0
 0
+0
+Logos
+Logo_CE_7
+Logo CE 7mm
+
+0
+0
+0
+Logos
+Logo_CE_8
+Logo CE 8mm
+
+0
+0
+0
+Logos
+Logo_CE_9
+Logo CE 9mm
+
+0
+0
+0
+Logos
+Logo_CE_10
+Logo CE 10mm
+
+0
+0
+0
+Logos
+Logo_ESD_10
+ESD Sensible device 10mm
+
+0
+0
+0
+Logos
+Logo_ESD_15
+ESD Sensible device 15mm
+
+0
+0
+0
+Logos
+Logo_ESD_20
+ESD Sensible device 20mm
+
+0
+0
+0
+Logos
+Logo_ISO7010_W017_10
+Hot Surface 10mm
+
+0
+0
+0
+Logos
+Logo_ISO7010_W017_15
+Hot Surface 15mm
+
+0
+0
+0
+Logos
+Logo_ISO7010_W017_20
+Hot Surface 20mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_6
+Logo Open Hardware 6mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_7
+Logo Open Hardware 7mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_8
+Logo Open Hardware 8mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_9
+Logo Open Hardware 9mm
+
+0
+0
+0
+Logos
+Logo_OpenHW_10
+Logo Open Hardware 10mm
+
+0
+0
+0
+Logos
+Logo_RoHS_6
+Logo RoHS 6mm
+
+0
+0
+0
+Logos
+Logo_RoHS_7
+Logo RoHS 7mm
+
+0
+0
+0
+Logos
+Logo_RoHS_8
+Logo RoHS 8mm
+
+0
+0
+0
+Logos
+Logo_RoHS_9
+Logo RoHS 9mm
+
+0
+0
+0
+Logos
+Logo_RoHS_10
+Logo RoHS 10mm
+
+0
+0
+0
+Microcontrollers
+STM32H563VIT6
+LQFP-100_L14.0-W14.0-P0.50-LS16.0-BL 
+
+0
+100
+100
+PCB_Utils
+Fiducial_1_2
+Circular Fiducial, 1mm bare copper, 2mm soldermask opening
+fiducial
+0
+1
+0
+PCB_Utils
+J_SWD
+Programing header for STM32
+
+0
+6
+6
+PCB_Utils
+MH_M2.5
+Mounting Hole  M2.5
+
+0
+9
+1
+PCB_Utils
+MH_M3
+Mounting Hole M3
+
+0
+9
+1
+PCB_Utils
+SB_Closed_0.2
+0.2mm Closed solder bridge ( 3 mm diameter )
+
+0
+2
+2
+PCB_Utils
+SB_Open_1
+Open solder bridge ( 3 mm diameter )
+
+0
+2
+2
+PCB_Utils
+SB_Open_2
+Open solder bridge ( 4x2 mm )
+
+0
+2
+2
+PCB_Utils
+SB_Open_3
+Open solder bridge ( 4x2 mm )
+
+0
+2
+2
+PCB_Utils
+SB_Open_4
+Open solder bridge ( 3 mm diameter )
+
+0
+2
+2
+PCB_Utils
+TP_1
+Test point - diam 1 mm
+
+0
+1
+1
+PCB_Utils
+TP_1.5
+Test point - diam 1.5 mm
+
+0
+1
+1
+PCB_Utils
+TP_2
+Test point - diam 2 mm
+
+0
+1
+1
