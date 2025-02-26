@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b3ce22de-813e-4a84-80c2-bec39c904000")
 	(paper "A4")
 	(lib_symbols)
@@ -148,6 +148,10 @@
 	(sheet
 		(at 160 75)
 		(size 44 19)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -177,43 +181,43 @@
 		)
 		(pin "CT2" input
 			(at 185 75 90)
+			(uuid "4e017eac-e1db-4882-972d-a5c550f478f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4e017eac-e1db-4882-972d-a5c550f478f5")
 		)
 		(pin "CT1" input
 			(at 188 75 90)
+			(uuid "a573bfca-8fa4-46fb-973d-03b34f4ae14f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a573bfca-8fa4-46fb-973d-03b34f4ae14f")
 		)
 		(pin "SP2" input
 			(at 191 75 90)
+			(uuid "c385a3cb-c593-4e6c-8ce4-da1cf1215b35")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c385a3cb-c593-4e6c-8ce4-da1cf1215b35")
 		)
 		(pin "SP1" input
 			(at 194 75 90)
+			(uuid "a18cb72e-4eec-45b6-b370-9c7f2090c5ce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a18cb72e-4eec-45b6-b370-9c7f2090c5ce")
 		)
 		(instances
 			(project "projet_lcd"
@@ -226,6 +230,10 @@
 	(sheet
 		(at 160 30)
 		(size 44 31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -256,143 +264,143 @@
 		)
 		(pin "RMII_RXD0" output
 			(at 160 41 180)
+			(uuid "39dba3e9-7c79-4069-8e84-d6664ae44914")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "39dba3e9-7c79-4069-8e84-d6664ae44914")
 		)
 		(pin "RMII_RXD1" output
 			(at 160 44 180)
+			(uuid "cbecc045-13fc-43da-8d08-408c7a5b2286")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbecc045-13fc-43da-8d08-408c7a5b2286")
 		)
 		(pin "RMII_REFCLK" output
 			(at 160 56 180)
+			(uuid "5b375627-7e4a-43c5-a11a-dcd426769c6d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5b375627-7e4a-43c5-a11a-dcd426769c6d")
 		)
 		(pin "RMII_MDC" input
 			(at 160 53 180)
+			(uuid "25071460-b227-45c1-a37d-50cfc0963036")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "25071460-b227-45c1-a37d-50cfc0963036")
 		)
 		(pin "~{RST}" output
 			(at 160 59 180)
+			(uuid "029af79f-366f-4e89-b99c-40a4105dbdaf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "029af79f-366f-4e89-b99c-40a4105dbdaf")
 		)
 		(pin "RMII_MDIO" bidirectional
 			(at 160 50 180)
+			(uuid "37780a48-fc8d-47e8-a357-2014cf844915")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37780a48-fc8d-47e8-a357-2014cf844915")
 		)
 		(pin "RMII_CRS_DV" output
 			(at 160 47 180)
+			(uuid "1f0d9b11-021d-4910-9b77-de7a7014bcd6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1f0d9b11-021d-4910-9b77-de7a7014bcd6")
 		)
 		(pin "RMII_TXD1" input
 			(at 160 35 180)
+			(uuid "c7b315d7-642d-4ba1-8619-3086c84d0adf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c7b315d7-642d-4ba1-8619-3086c84d0adf")
 		)
 		(pin "RMII_TXD0" input
 			(at 160 32 180)
+			(uuid "68ca8c1a-7fcc-4f73-bfe9-44fa6c3b8fc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "68ca8c1a-7fcc-4f73-bfe9-44fa6c3b8fc5")
 		)
 		(pin "RMII_TXEN" input
 			(at 160 38 180)
+			(uuid "30b3c5e0-2407-46e1-8038-91cd30cb9e9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "30b3c5e0-2407-46e1-8038-91cd30cb9e9c")
 		)
 		(pin "CT1" output
 			(at 188 61 270)
+			(uuid "1e8ec011-924b-4177-a044-d646d229e76a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1e8ec011-924b-4177-a044-d646d229e76a")
 		)
 		(pin "CT2" output
 			(at 185 61 270)
+			(uuid "81fbe090-e402-4bc9-abf1-422370e24ef7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "81fbe090-e402-4bc9-abf1-422370e24ef7")
 		)
 		(pin "SP1" output
 			(at 194 61 270)
+			(uuid "f865d83f-d873-401b-83b4-e69ab73e84c8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f865d83f-d873-401b-83b4-e69ab73e84c8")
 		)
 		(pin "SP2" output
 			(at 191 61 270)
+			(uuid "9ca6b3f7-abe8-4834-afbe-e5a95e1c5f97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9ca6b3f7-abe8-4834-afbe-e5a95e1c5f97")
 		)
 		(instances
 			(project "projet_lcd"
@@ -405,6 +413,10 @@
 	(sheet
 		(at 49 24)
 		(size 59 50)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -434,123 +446,123 @@
 		)
 		(pin "UDB_DP" bidirectional
 			(at 79.5 74 270)
+			(uuid "ddfb6908-4067-4d4f-a29e-5e19c9c46d66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ddfb6908-4067-4d4f-a29e-5e19c9c46d66")
 		)
 		(pin "~{RST}" input
 			(at 108 59 0)
+			(uuid "8fc201a4-5073-44a9-8393-3684d5bf69e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8fc201a4-5073-44a9-8393-3684d5bf69e4")
 		)
 		(pin "RMII_TXD0" output
 			(at 108 32 0)
+			(uuid "238a587a-c504-4261-be2d-b1b4282dd00e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "238a587a-c504-4261-be2d-b1b4282dd00e")
 		)
 		(pin "RMII_TXD1" output
 			(at 108 35 0)
+			(uuid "1039d907-7e31-4d26-8ecd-25b874a8b8eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1039d907-7e31-4d26-8ecd-25b874a8b8eb")
 		)
 		(pin "RMII_REFCLK" input
 			(at 108 56 0)
+			(uuid "c1e45065-6cc7-4bd6-b89c-33e0503f50f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c1e45065-6cc7-4bd6-b89c-33e0503f50f0")
 		)
 		(pin "RMII_TXEN" output
 			(at 108 38 0)
+			(uuid "2ce263dc-9120-4b6e-b087-d275f02098f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2ce263dc-9120-4b6e-b087-d275f02098f8")
 		)
 		(pin "RMII_MDIO" bidirectional
 			(at 108 50 0)
+			(uuid "3c23cab6-0883-40b6-9be5-2e7d68a3b69d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3c23cab6-0883-40b6-9be5-2e7d68a3b69d")
 		)
 		(pin "RMII_CRS_DV" input
 			(at 108 47 0)
+			(uuid "6e798f95-917b-4398-8c4b-895a5c540efe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6e798f95-917b-4398-8c4b-895a5c540efe")
 		)
 		(pin "UDB_DM" bidirectional
 			(at 82.5 74 270)
+			(uuid "5a7afbb3-a518-4e70-bcb0-835bfab5537d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5a7afbb3-a518-4e70-bcb0-835bfab5537d")
 		)
 		(pin "RMII_MDC" output
 			(at 108 53 0)
+			(uuid "c0c605a1-6976-47d3-9892-29d1bf5442ea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c0c605a1-6976-47d3-9892-29d1bf5442ea")
 		)
 		(pin "RMII_RXD0" input
 			(at 108 41 0)
+			(uuid "6cdcc6f3-cf42-4f81-b8c0-8e90ba404bde")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6cdcc6f3-cf42-4f81-b8c0-8e90ba404bde")
 		)
 		(pin "RMII_RXD1" input
 			(at 108 44 0)
+			(uuid "559716d3-30e9-4219-81db-dae207c9804f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "559716d3-30e9-4219-81db-dae207c9804f")
 		)
 		(instances
 			(project "projet_lcd"
@@ -565,4 +577,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
