@@ -2914,7 +2914,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part # " ""
+			(property "LCSC Part #" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -8759,7 +8759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part # " ""
+		(property "LCSC Part #" ""
 			(at 111 143 0)
 			(effects
 				(font
@@ -10446,7 +10446,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " ""
+		(property "LCSC Part #" ""
 			(at 120 143 0)
 			(effects
 				(font
@@ -11482,7 +11482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part # " ""
+		(property "LCSC Part #" ""
 			(at 189 123 0)
 			(effects
 				(font

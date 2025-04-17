@@ -709,7 +709,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part # " ""
+			(property "LCSC Part #" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5897,7 +5897,7 @@
 	)
 	(wire
 		(pts
-			(xy 64 82) (xy 64 100)
+			(xy 64 79) (xy 64 100)
 		)
 		(stroke
 			(width 0)
@@ -6277,7 +6277,7 @@
 	)
 	(wire
 		(pts
-			(xy 64 59) (xy 64 76)
+			(xy 64 59) (xy 64 73)
 		)
 		(stroke
 			(width 0)
@@ -6985,13 +6985,77 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tranformer / PoE Size ER13 127uH 40mohm "
+		(property "Description" "Tranformer / PoE Size ER13 127uH 40mohm"
 			(at 207 14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Cl" ""
+			(at 176 31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ESR" ""
+			(at 176 31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Precision" ""
+			(at 176 31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "REF" ""
+			(at 176 31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Ref" ""
+			(at 176 31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tension" ""
+			(at 176 31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 176 31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 176 31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -7081,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" "NI"
+		(property "Part#" "1N4148W"
 			(at 164 52.5 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7177,7 +7241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" "NI"
+		(property "Part#" "S1B"
 			(at 161.5 43 90)
 			(do_not_autoplace yes)
 			(effects
@@ -7376,13 +7440,12 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 204 36 0)
+		(property "Comments" "50V"
+			(at 201 41.5 0)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -7472,13 +7535,12 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 229 39 0)
+		(property "Comments" "6.3V"
+			(at 226.5 40 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -7568,13 +7630,12 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 222 39 0)
+		(property "Comments" "25V"
+			(at 219 40 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -7818,7 +7879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB_Utils:TP_1.5"
 			(at 145 43 0)
 			(effects
 				(font
@@ -7877,7 +7938,7 @@
 	)
 	(symbol
 		(lib_id "Generics:C")
-		(at 64 82 90)
+		(at 64 79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7885,7 +7946,7 @@
 		(dnp no)
 		(uuid "2bed2ba0-114e-407f-9696-af7dbfc7d0cb")
 		(property "Reference" "C34"
-			(at 61 77 90)
+			(at 61 74 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7894,7 +7955,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 60 81 90)
+			(at 60 78 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7903,7 +7964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.5348 77.69 90)
+			(at 59.5348 74.69 90)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -7912,7 +7973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.9 78.4 90)
+			(at 63.9 75.4 90)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -7921,7 +7982,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 73.6 79 0)
+			(at 73.6 76 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -7930,7 +7991,7 @@
 			)
 		)
 		(property "Part#" ""
-			(at 64 82 0)
+			(at 64 79 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -7938,17 +7999,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 64 82 0)
+		(property "Comments" "100V"
+			(at 60 80 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 64 82 0)
+			(at 64 79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,16 +8657,15 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 74 65 0)
+		(property "Comments" "100V"
+			(at 70 67 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC Part # " ""
+		(property "LCSC Part #" ""
 			(at 74 65 0)
 			(effects
 				(font
@@ -9521,13 +9580,12 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 276 39 0)
+		(property "Comments" "50V"
+			(at 281 36 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -10405,13 +10463,12 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 89 65 0)
+		(property "Comments" "100V"
+			(at 92 66 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -10919,16 +10976,15 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 247 39 0)
+		(property "Comments" "6.3V"
+			(at 243.5 41 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
-		(property "LCSC Part # " ""
+		(property "LCSC Part #" ""
 			(at 247 39 0)
 			(effects
 				(font
@@ -11206,7 +11262,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C129272"
+		(property "LCSC Part #" "C129272"
 			(at 103 160 0)
 			(effects
 				(font
@@ -11943,13 +11999,12 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 81 65 0)
+		(property "Comments" "100V"
+			(at 84 66 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -13133,13 +13188,12 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" ""
-			(at 97 65 0)
+		(property "Comments" "100V"
+			(at 100 66 90)
 			(effects
 				(font
 					(size 1.25 1.25)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC Part #" ""
@@ -13385,7 +13439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB_Utils:TP_1.5"
 			(at 151 48 0)
 			(effects
 				(font
