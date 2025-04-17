@@ -25,7 +25,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "four_way_junction|1200000|940000|6a50a105-a2d8-4502-bd53-1917bb643683|d8ab5423-5436-4eff-8a8c-c92e8e15a7ab|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
+        ""
+      ],
+      [
+        "four_way_junction|1200000|940000|d8ab5423-5436-4eff-8a8c-c92e8e15a7ab|7d92db29-a692-4824-9918-0f98771dabfe|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
+        ""
+      ],
+      [
+        "four_way_junction|1290000|910000|81faf8ef-f197-4025-a208-10a043bb8e56|37fd3245-63fc-4e0d-9ef2-48a61c552c54|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
+        ""
+      ],
+      [
+        "four_way_junction|1370000|880000|c2a743e4-3153-43c0-90a9-73e976189649|3b62f373-2f8d-4d01-9d63-ed0e7d5fb3b7|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
+        ""
+      ],
+      [
+        "four_way_junction|1450000|850000|fa4a6d66-5128-4266-ac4b-dc9fa977d4e8|2c28fab7-452c-4b64-94c2-3145234d3685|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
+        ""
+      ],
+      [
+        "four_way_junction|1890000|740000|818b1f3f-80aa-45e4-8d0e-c0a8345aff47|9c86560b-b24b-4d29-a307-e247898dfb45|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -211,14 +236,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "footprint_filter": "warning",
+      "footprint_link_issues": "error",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "error",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
@@ -237,7 +262,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
@@ -428,7 +453,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "connection_grid_size": 50.0,
+    "connection_grid_size": 39.37007874015748,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
