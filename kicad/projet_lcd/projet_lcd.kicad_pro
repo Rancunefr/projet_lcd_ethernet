@@ -225,32 +225,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "four_way_junction|1200000|940000|6a50a105-a2d8-4502-bd53-1917bb643683|d8ab5423-5436-4eff-8a8c-c92e8e15a7ab|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
-        ""
-      ],
-      [
-        "four_way_junction|1200000|940000|d8ab5423-5436-4eff-8a8c-c92e8e15a7ab|7d92db29-a692-4824-9918-0f98771dabfe|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
-        ""
-      ],
-      [
-        "four_way_junction|1290000|910000|81faf8ef-f197-4025-a208-10a043bb8e56|37fd3245-63fc-4e0d-9ef2-48a61c552c54|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
-        ""
-      ],
-      [
-        "four_way_junction|1370000|880000|c2a743e4-3153-43c0-90a9-73e976189649|3b62f373-2f8d-4d01-9d63-ed0e7d5fb3b7|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
-        ""
-      ],
-      [
-        "four_way_junction|1450000|850000|fa4a6d66-5128-4266-ac4b-dc9fa977d4e8|2c28fab7-452c-4b64-94c2-3145234d3685|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
-        ""
-      ],
-      [
-        "four_way_junction|1890000|740000|818b1f3f-80aa-45e4-8d0e-c0a8345aff47|9c86560b-b24b-4d29-a307-e247898dfb45|/b3ce22de-813e-4a84-80c2-bec39c904000/4f5f892b-036b-4e71-84df-7e1dbf92e07c||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -455,13 +430,13 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "warning",
       "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -724,7 +699,7 @@
     ],
     [
       "9ea47d51-491e-4a8f-867a-699065ac1e83",
-      "stm32"
+      "STM32"
     ],
     [
       "4cd1692b-280a-46ef-a0ce-bb76541e4c5a",
@@ -733,6 +708,14 @@
     [
       "4f5f892b-036b-4e71-84df-7e1dbf92e07c",
       "Ethernet"
+    ],
+    [
+      "c6fab658-f544-4247-906b-fdb14f28513d",
+      "SD Card"
+    ],
+    [
+      "ce0b32e7-45df-4e1a-b11f-a58eebba706d",
+      "Memory"
     ]
   ],
   "text_variables": {}
