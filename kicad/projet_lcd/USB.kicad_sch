@@ -1825,7 +1825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f65fbd3-644f-493b-b54f-aaef856646ba")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR081"
 			(at 133 115.35 0)
 			(effects
 				(font
@@ -1876,7 +1876,7 @@
 		(instances
 			(project ""
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "#PWR076")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -1892,7 +1892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2611e0f4-c5c1-4b72-b264-29e23ed7a134")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 108 89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -1973,7 +1973,7 @@
 		(instances
 			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -1989,7 +1989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28f4c907-6468-49b6-b367-1abe92553313")
-		(property "Reference" "R50"
+		(property "Reference" "R45"
 			(at 160 89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2070,7 +2070,7 @@
 		(instances
 			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "R50")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -2086,7 +2086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b924fc6-eb4a-474e-b46e-172d71afd1f5")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR082"
 			(at 155 116.35 0)
 			(effects
 				(font
@@ -2137,7 +2137,7 @@
 		(instances
 			(project ""
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "#PWR075")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2153,7 +2153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da9d249-6a21-47c5-8917-4c757e3af33b")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 116 89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2234,7 +2234,7 @@
 		(instances
 			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -2249,7 +2249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91ec3bff-c1c7-4a79-8827-d499ce262179")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR080"
 			(at 149 103 0)
 			(effects
 				(font
@@ -2300,7 +2300,7 @@
 		(instances
 			(project ""
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "#PWR077")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2315,7 +2315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96603756-c5b0-4952-9089-9fe95b648195")
-		(property "Reference" "J8"
+		(property "Reference" "J4"
 			(at 146 91 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 		(instances
 			(project ""
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2429,7 +2429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b025c177-31f4-4b3a-9bdf-7d665443ce1e")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR079"
 			(at 94 93 0)
 			(effects
 				(font
@@ -2480,7 +2480,7 @@
 		(instances
 			(project ""
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "#PWR074")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccccbfea-3fe5-4d85-982e-749938dcf7de")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 125 89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2577,7 +2577,7 @@
 		(instances
 			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8a7b56a-81a7-4261-8cda-e85dd02e03d1")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 100 89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2674,7 +2674,7 @@
 		(instances
 			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe489532-0fe5-410d-9794-92650d82d61f")
-		(property "Reference" "R45"
+		(property "Reference" "R46"
 			(at 92 89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2771,7 +2771,7 @@
 		(instances
 			(project ""
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
