@@ -22733,14 +22733,6 @@
 				)
 			)
 			(embedded_fonts no)
-			(embedded_files
-				(file
-					(name "C128788.pdf")
-					(type datasheet)
-					(data)
-					(checksum "4442377E8333D3B993D364C156CBA25D")
-				)
-			)
 		)
 		(symbol "PCB_Utils:TP"
 			(pin_numbers
