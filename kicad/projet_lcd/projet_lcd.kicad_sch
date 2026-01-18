@@ -793,8 +793,8 @@
 		)
 	)
 	(sheet
-		(at 42 60)
-		(size 54 21)
+		(at 60 60)
+		(size 36 48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -809,7 +809,7 @@
 		)
 		(uuid "c304fb17-2789-4996-a960-af2b1d123f23")
 		(property "Sheetname" "IO Connectors"
-			(at 42 59.2884 0)
+			(at 60 59.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,7 +818,7 @@
 			)
 		)
 		(property "Sheetfile" "io_connectors.kicad_sch"
-			(at 42 81.5846 0)
+			(at 60 108.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

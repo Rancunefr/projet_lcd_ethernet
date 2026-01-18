@@ -1446,7 +1446,7 @@
 	)
 	(text_box "Attention\n\nJamais de pullup sur clk"
 		(exclude_from_sim no)
-		(at 56 120 0)
+		(at 113 66 0)
 		(size 28 9)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
