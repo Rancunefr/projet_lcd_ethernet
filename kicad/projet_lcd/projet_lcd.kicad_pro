@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -225,20 +226,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|920000|1530000|257afc37-4d67-46af-847e-3ec8d2e041d1|5d496577-fbd3-454b-a0f7-65171b18b143|/b3ce22de-813e-4a84-80c2-bec39c904000/4cd1692b-280a-46ef-a0ce-bb76541e4c5a|/b3ce22de-813e-4a84-80c2-bec39c904000/4cd1692b-280a-46ef-a0ce-bb76541e4c5a|/b3ce22de-813e-4a84-80c2-bec39c904000/4cd1692b-280a-46ef-a0ce-bb76541e4c5a",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1630000|950000|33f0af63-4560-4744-9aad-c5726d806bf4|00000000-0000-0000-0000-000000000000|/b3ce22de-813e-4a84-80c2-bec39c904000/9ea47d51-491e-4a8f-867a-699065ac1e83|/b3ce22de-813e-4a84-80c2-bec39c904000/9ea47d51-491e-4a8f-867a-699065ac1e83|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|820000|1010000|3ae8a0b7-63ab-429c-92a8-b9b77971b543|00000000-0000-0000-0000-000000000000|/b3ce22de-813e-4a84-80c2-bec39c904000/9ea47d51-491e-4a8f-867a-699065ac1e83|/b3ce22de-813e-4a84-80c2-bec39c904000/9ea47d51-491e-4a8f-867a-699065ac1e83|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -453,6 +441,7 @@
       "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -729,6 +718,10 @@
     [
       "ce0b32e7-45df-4e1a-b11f-a58eebba706d",
       "Memory"
+    ],
+    [
+      "c304fb17-2789-4996-a960-af2b1d123f23",
+      "IO Connectors"
     ]
   ],
   "text_variables": {}

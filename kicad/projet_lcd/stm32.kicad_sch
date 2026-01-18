@@ -264,8 +264,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "25Mhz - 8pF - 10ppm"
+				(at 7.5 -20 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12216,6 +12216,60 @@
 					(hide yes)
 				)
 			)
+			(property "PIN_01" "VDD"
+				(at 15 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PIN_02" "SWCLK"
+				(at 15 -3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PIN_03" "SWO"
+				(at 15 -6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PIN_04" "SWDIO"
+				(at 15 -9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PIN_05" "NRST"
+				(at 15 -12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PIN_06" "GND"
+				(at 15 -15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "J_SWD_1_1"
 				(rectangle
 					(start 1 2)
@@ -12724,7 +12778,7 @@
 	(text_box "ESR Max 100mΩ"
 		(exclude_from_sim no)
 		(at 184 109 0)
-		(size 18 3)
+		(size 18 6)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -12743,7 +12797,7 @@
 	)
 	(text_box "SMPS Disabled"
 		(exclude_from_sim no)
-		(at 62 119 0)
+		(at 63 120 0)
 		(size 18 3)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -12804,7 +12858,7 @@
 	(text_box "Internal VREFBUF enabled"
 		(exclude_from_sim no)
 		(at 57 114 0)
-		(size 27 4)
+		(size 29 4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -16685,7 +16739,7 @@
 		(uuid "0cadc781-26f4-4c22-8e80-7105956d0117")
 	)
 	(hierarchical_label "SPI_MOSI"
-		(shape input)
+		(shape output)
 		(at 260 81 180)
 		(effects
 			(font
@@ -18947,7 +19001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25Mhz - 8pF - 10ppm"
 			(at 50 70 0)
 			(effects
 				(font
@@ -22509,7 +22563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Generics:Header_1x06_2.54_TH_labels"
 			(at 28 178 0)
 			(effects
 				(font
@@ -22551,6 +22605,60 @@
 			(effects
 				(font
 					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_01" "VDD"
+			(at 13 163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_02" "SWCLK"
+			(at 13 166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_03" "SWO"
+			(at 13 169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_04" "SWDIO"
+			(at 13 172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_05" "NRST"
+			(at 13 175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN_06" "GND"
+			(at 13 178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -23424,7 +23532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Generics:Header_1x03_2.54_TH"
+		(property "Footprint" "Generics:Header_1x03_2.54_TH_labels"
 			(at 55 133 0)
 			(effects
 				(font

@@ -37,6 +37,16 @@
 	)
 	(wire
 		(pts
+			(xy 96 63) (xy 105 63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1232ca27-2a59-4a5f-b075-888593cc45fd")
+	)
+	(wire
+		(pts
 			(xy 164 73) (xy 179 73)
 		)
 		(stroke
@@ -44,6 +54,16 @@
 			(type default)
 		)
 		(uuid "2895db54-3abb-49db-a29a-2f52246c4ad9")
+	)
+	(wire
+		(pts
+			(xy 96 69) (xy 105 69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ce36ed-e09d-4fac-96c0-05f27c8e05a2")
 	)
 	(wire
 		(pts
@@ -107,6 +127,16 @@
 	)
 	(wire
 		(pts
+			(xy 96 66) (xy 105 66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5739c88c-287a-4253-9749-89afd687b73d")
+	)
+	(wire
+		(pts
 			(xy 204 96) (xy 204 110)
 		)
 		(stroke
@@ -137,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 96 77) (xy 105 77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7378f094-cc2f-4b7f-8982-eedb727d4785")
+	)
+	(wire
+		(pts
 			(xy 213 96) (xy 213 110)
 		)
 		(stroke
@@ -164,6 +204,16 @@
 			(type default)
 		)
 		(uuid "ae38fd69-9f0e-432c-8bb4-d78dd4846666")
+	)
+	(wire
+		(pts
+			(xy 96 74) (xy 105 74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb6d2d2-50ef-4970-9128-9834feba7009")
 	)
 	(wire
 		(pts
@@ -743,6 +793,98 @@
 		)
 	)
 	(sheet
+		(at 42 60)
+		(size 54 21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c304fb17-2789-4996-a960-af2b1d123f23")
+		(property "Sheetname" "IO Connectors"
+			(at 42 59.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_connectors.kicad_sch"
+			(at 42 81.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 96 66 0)
+			(uuid "42bf5cb5-d3ee-40c4-9221-639c0d50bc2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 96 69 0)
+			(uuid "4973e357-e2fe-4367-9785-c5c7309ab567")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 96 77 0)
+			(uuid "e75136dc-f547-44c5-905e-8df10fbeb22f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 96 74 0)
+			(uuid "4ba598db-45b4-4f43-a94b-915fed2a3e28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 96 63 0)
+			(uuid "c8188855-b3d7-414c-9c4c-59addceb5322")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "projet_lcd"
+				(path "/b3ce22de-813e-4a84-80c2-bec39c904000"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 104 127)
 		(size 60 29)
 		(exclude_from_sim no)
@@ -767,7 +909,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB.kicad_sch"
+		(property "Sheetfile" "SD_Card.kicad_sch"
 			(at 104 156.5846 0)
 			(effects
 				(font
@@ -861,7 +1003,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -880,7 +1021,7 @@
 			)
 		)
 		(property "Sheetfile" "Memory.kicad_sch"
-			(at 124 55.5846 0)
+			(at 141 39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

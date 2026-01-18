@@ -2058,7 +2058,7 @@
 			(uuid "7c7a45dc-9aa0-4999-8a31-26682574aa71")
 		)
 		(instances
-			(project ""
+			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
 					(reference "#PWR081")
 					(unit 1)
@@ -2319,7 +2319,7 @@
 			(uuid "6e324a04-ce7f-4a0e-a25b-f9b84941e986")
 		)
 		(instances
-			(project ""
+			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
 					(reference "#PWR082")
 					(unit 1)
@@ -2386,7 +2386,7 @@
 			(uuid "ecebadb5-2891-402a-a4ec-1aed73d582ff")
 		)
 		(instances
-			(project ""
+			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
 					(reference "#PWR096")
 					(unit 1)
@@ -2549,7 +2549,7 @@
 			(uuid "55818ebf-25d7-47a8-a652-916d9084e871")
 		)
 		(instances
-			(project ""
+			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
 					(reference "#PWR080")
 					(unit 1)
@@ -2712,7 +2712,7 @@
 			(uuid "92e08817-dd22-4773-8cf9-084fc9eaba59")
 		)
 		(instances
-			(project ""
+			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
 					(reference "#PWR079")
 					(unit 1)
@@ -3020,7 +3020,7 @@
 			(uuid "4da110f8-a43e-432a-8873-784c890903e8")
 		)
 		(instances
-			(project ""
+			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
 					(reference "J7")
 					(unit 1)
@@ -3214,7 +3214,7 @@
 			(uuid "90a3a662-e96e-4476-93b8-204eae10b62c")
 		)
 		(instances
-			(project ""
+			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/c6fab658-f544-4247-906b-fdb14f28513d"
 					(reference "R46")
 					(unit 1)
