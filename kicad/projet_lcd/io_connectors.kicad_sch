@@ -2900,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 117) (xy 250 117)
+			(xy 203 118) (xy 211 118)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 247 108) (xy 250 108)
+			(xy 208 109) (xy 211 109)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 111) (xy 250 111)
+			(xy 203 112) (xy 211 112)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 132) (xy 250 132)
+			(xy 203 133) (xy 211 133)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 135) (xy 250 135)
+			(xy 203 136) (xy 211 136)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 120) (xy 250 120)
+			(xy 203 121) (xy 211 121)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 123) (xy 250 123)
+			(xy 203 124) (xy 211 124)
 		)
 		(stroke
 			(width 0)
@@ -3130,7 +3130,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 129) (xy 250 129)
+			(xy 203 130) (xy 211 130)
 		)
 		(stroke
 			(width 0)
@@ -3200,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 114) (xy 250 114)
+			(xy 203 115) (xy 211 115)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 247 141) (xy 250 141)
+			(xy 208 142) (xy 211 142)
 		)
 		(stroke
 			(width 0)
@@ -3290,7 +3290,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 138) (xy 250 138)
+			(xy 203 139) (xy 211 139)
 		)
 		(stroke
 			(width 0)
@@ -3360,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 242 126) (xy 250 126)
+			(xy 203 127) (xy 211 127)
 		)
 		(stroke
 			(width 0)
@@ -3460,7 +3460,7 @@
 	)
 	(hierarchical_label "OUTPUT_0"
 		(shape bidirectional)
-		(at 242 111 180)
+		(at 203 112 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3471,7 +3471,7 @@
 	)
 	(hierarchical_label "OUTPUT_7"
 		(shape bidirectional)
-		(at 242 132 180)
+		(at 203 133 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 	)
 	(hierarchical_label "OUTPUT_4"
 		(shape bidirectional)
-		(at 242 123 180)
+		(at 203 124 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3548,7 +3548,7 @@
 	)
 	(hierarchical_label "OUTPUT_1"
 		(shape bidirectional)
-		(at 242 114 180)
+		(at 203 115 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3559,7 +3559,7 @@
 	)
 	(hierarchical_label "OUTPUT_9"
 		(shape bidirectional)
-		(at 242 138 180)
+		(at 203 139 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3592,7 +3592,7 @@
 	)
 	(hierarchical_label "OUTPUT_3"
 		(shape bidirectional)
-		(at 242 120 180)
+		(at 203 121 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3614,7 +3614,7 @@
 	)
 	(hierarchical_label "OUTPUT_2"
 		(shape bidirectional)
-		(at 242 117 180)
+		(at 203 118 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3625,7 +3625,7 @@
 	)
 	(hierarchical_label "OUTPUT_5"
 		(shape bidirectional)
-		(at 242 126 180)
+		(at 203 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3658,7 +3658,7 @@
 	)
 	(hierarchical_label "OUTPUT_6"
 		(shape bidirectional)
-		(at 242 129 180)
+		(at 203 130 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3669,7 +3669,7 @@
 	)
 	(hierarchical_label "OUTPUT_8"
 		(shape bidirectional)
-		(at 242 135 180)
+		(at 203 136 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4098,7 +4098,7 @@
 	)
 	(symbol
 		(lib_id "Generics:J_Connector_1x12")
-		(at 250 108 0)
+		(at 211 109 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4107,7 +4107,7 @@
 		(fields_autoplaced yes)
 		(uuid "39f388ed-4c6e-4829-a826-5d18f3911246")
 		(property "Reference" "J8"
-			(at 254 105 0)
+			(at 215 106 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4116,7 +4116,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 219 117 0)
+			(at 180 118 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4125,7 +4125,7 @@
 			)
 		)
 		(property "Footprint" "Generics:Header_1x12_2.54_TH_labels"
-			(at 219 123 0)
+			(at 180 124 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4134,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219 119 0)
+			(at 180 120 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4143,7 +4143,7 @@
 			)
 		)
 		(property "Description" "Header"
-			(at 254 103 0)
+			(at 215 104 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4152,7 +4152,7 @@
 			)
 		)
 		(property "Part#" ""
-			(at 250 129 0)
+			(at 211 130 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4161,7 +4161,7 @@
 			)
 		)
 		(property "Comments" ""
-			(at 250 129 0)
+			(at 211 130 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4170,7 +4170,7 @@
 			)
 		)
 		(property "PIN_01" "## PIN1"
-			(at 256 108 0)
+			(at 217 109 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4181,7 +4181,7 @@
 			)
 		)
 		(property "PIN_02" "## PIN2"
-			(at 256 111 0)
+			(at 217 112 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4192,7 +4192,7 @@
 			)
 		)
 		(property "PIN_03" "## PIN3"
-			(at 256 114 0)
+			(at 217 115 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4203,7 +4203,7 @@
 			)
 		)
 		(property "PIN_04" "## PIN4"
-			(at 256 117 0)
+			(at 217 118 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4214,7 +4214,7 @@
 			)
 		)
 		(property "PIN_05" "## PIN5"
-			(at 256 120 0)
+			(at 217 121 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4225,7 +4225,7 @@
 			)
 		)
 		(property "PIN_06" "## PIN6"
-			(at 256 123 0)
+			(at 217 124 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4236,7 +4236,7 @@
 			)
 		)
 		(property "PIN_07" "## PIN7"
-			(at 256 126 0)
+			(at 217 127 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 			)
 		)
 		(property "PIN_08" "## PIN8"
-			(at 256 129 0)
+			(at 217 130 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4258,7 +4258,7 @@
 			)
 		)
 		(property "PIN_09" "## PIN9"
-			(at 256 132 0)
+			(at 217 133 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4269,7 +4269,7 @@
 			)
 		)
 		(property "PIN_10" "## PIN10"
-			(at 256 135 0)
+			(at 217 136 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 			)
 		)
 		(property "PIN_11" "## PIN11"
-			(at 256 138 0)
+			(at 217 139 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4291,7 +4291,7 @@
 			)
 		)
 		(property "PIN_12" "## PIN12"
-			(at 256 141 0)
+			(at 217 142 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 	)
 	(symbol
 		(lib_id "Power:VBUS")
-		(at 247 108 0)
+		(at 208 109 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4357,7 +4357,7 @@
 		(fields_autoplaced yes)
 		(uuid "41f6c50a-0e4c-451d-a2bb-91afe35766dd")
 		(property "Reference" "#PWR0107"
-			(at 247 121 0)
+			(at 208 122 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4366,7 +4366,7 @@
 			)
 		)
 		(property "Value" "Vaux_3V3"
-			(at 247 104.19 0)
+			(at 208 105.19 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4375,7 +4375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247 108 0)
+			(at 208 109 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4384,7 +4384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247 108 0)
+			(at 208 109 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4393,7 +4393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 247 119 0)
+			(at 208 120 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -4508,7 +4508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Generics:R_0805"
 			(at 206.254 58.984 0)
 			(effects
 				(font
@@ -4756,7 +4756,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Generics:R_0805"
 			(at 197.254 49.984 0)
 			(effects
 				(font
@@ -5295,7 +5295,7 @@
 				(hide yes)
 			)
 		)
-		(property "PIN_01" "VCC"
+		(property "PIN_01" "## PIN1"
 			(at 105 55 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5306,7 +5306,7 @@
 				(justify left)
 			)
 		)
-		(property "PIN_02" "SDA"
+		(property "PIN_02" "## PIN2"
 			(at 105 58 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5317,7 +5317,7 @@
 				(justify left)
 			)
 		)
-		(property "PIN_03" "SCL"
+		(property "PIN_03" "## PIN3"
 			(at 105 61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5328,7 +5328,7 @@
 				(justify left)
 			)
 		)
-		(property "PIN_04" "GND"
+		(property "PIN_04" "## PIN4"
 			(at 105 64 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5703,7 +5703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Generics:R_0805"
 			(at 197.254 55.984 0)
 			(effects
 				(font
@@ -5800,7 +5800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Generics:R_0805"
 			(at 206.254 52.984 0)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 247 141 0)
+		(at 208 142 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6031,7 +6031,7 @@
 		(fields_autoplaced yes)
 		(uuid "f28821c5-f75c-4d7e-8077-896c52cc6b1a")
 		(property "Reference" "#PWR0108"
-			(at 247 147.35 0)
+			(at 208 148.35 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -6040,7 +6040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247 144.81 0)
+			(at 208 145.81 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -6049,7 +6049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247 141 0)
+			(at 208 142 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -6058,7 +6058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247 141 0)
+			(at 208 142 0)
 			(effects
 				(font
 					(size 1.25 1.25)
@@ -6067,7 +6067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\""
-			(at 249.54 151.668 0)
+			(at 210.54 152.668 0)
 			(effects
 				(font
 					(size 1.25 1.25)
