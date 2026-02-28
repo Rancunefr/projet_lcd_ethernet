@@ -9191,178 +9191,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Generics:SW_PushButton"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 3 3 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.25 1.25)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 4 -11 0)
-				(effects
-					(font
-						(size 1.25 1.25)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 5 5.08 0)
-				(effects
-					(font
-						(size 1.25 1.25)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 4 -13 0)
-				(effects
-					(font
-						(size 1.25 1.25)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 3 -3.9 0)
-				(effects
-					(font
-						(size 1.25 1.25)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part#" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.25 1.25)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comments" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.25 1.25)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_PushButton_1_1"
-				(circle
-					(center 1 0)
-					(radius 0.4)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3 1) (xy 3 2)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.5 2) (xy 2.5 2)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 1) (xy 1 1)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5 0)
-					(radius 0.4)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0.6)
-					(name "1"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6 0 180)
-					(length 0.6)
-					(name "2"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.25 1.25)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MicroControllers:STM32H563ZIT6"
 			(pin_names
 				(offset 0.254)
@@ -12134,6 +11962,202 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Misc:sw_C2844397"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3 -1.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Misc:C284397"
+				(at 3.5 7.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch SPST"
+				(at 4 5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C2844397"
+				(at 3.5 9.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "sw_C2844397_1_1"
+				(circle
+					(center 1 0)
+					(radius 0.4)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3 1) (xy 3 2)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.5 2) (xy 2.5 2)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 1) (xy 1 1)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5 0)
+					(radius 0.4)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.6)
+					(name "1"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.6)
+					(name "2"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6 0 180)
+					(length 0.6)
+					(name "3"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6 0 180)
+					(length 0.6)
+					(name "4"
+						(effects
+							(font
+								(size 1.25 1.25)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -17477,6 +17501,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Misc:sw_C2844397")
+		(at 201 76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08d694c6-57cb-4d80-a5f2-94a23c6f491d")
+		(property "Reference" "SW1"
+			(at 205.01 77.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 205.01 80.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Misc:C284397"
+			(at 208.5 79.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201 76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch SPST"
+			(at 206 80 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2844397"
+			(at 210.5 79.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0127e4f9-6408-4e49-a931-4cf2b6395c45")
+		)
+		(pin "4"
+			(uuid "c2c60975-eb41-4e18-ae4d-d0916f4d4c3b")
+		)
+		(pin "2"
+			(uuid "b12c49ea-813a-4cba-8b3d-c79c1beb44d5")
+		)
+		(pin "1"
+			(uuid "271ed125-c3c5-4375-9b8a-6b8123cb79ab")
+		)
+		(instances
+			(project ""
+				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/9ea47d51-491e-4a8f-867a-699065ac1e83"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Generics:C")
 		(at 47 37 90)
 		(unit 1)
@@ -21378,93 +21488,6 @@
 			(project "projet_lcd"
 				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/9ea47d51-491e-4a8f-867a-699065ac1e83"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Generics:SW_PushButton")
-		(at 201 76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d24c8df-d869-4e6c-8ace-e89029143ea2")
-		(property "Reference" "SW1"
-			(at 205.5 79 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 190 80 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 206.08 81 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 188 80 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 197.1 79 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 201 76 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" ""
-			(at 201 76 0)
-			(effects
-				(font
-					(size 1.25 1.25)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f365e27f-a8a6-4ce7-a2b7-b2f85752642f")
-		)
-		(pin "2"
-			(uuid "35594a70-7421-4d6e-9d3e-577a35abb2ff")
-		)
-		(instances
-			(project ""
-				(path "/b3ce22de-813e-4a84-80c2-bec39c904000/9ea47d51-491e-4a8f-867a-699065ac1e83"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
