@@ -12908,27 +12908,6 @@
 		)
 		(uuid "682554dd-9d49-4c57-822b-cb8d6dadd417")
 	)
-	(text_box "Ajouter connecteur USB"
-		(exclude_from_sim no)
-		(at 113 122 0)
-		(size 27 5)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 3 64 1)
-			)
-			(justify left top)
-		)
-		(uuid "6e2f4ff9-cc99-4ee7-8731-2654d626f7c1")
-	)
 	(text_box "VDD\n"
 		(exclude_from_sim no)
 		(at 113 21 0)
@@ -13462,20 +13441,12 @@
 		(uuid "1f7e50e1-e680-4b9f-9645-74914d81e731")
 	)
 	(no_connect
-		(at 63 172)
-		(uuid "244f603f-6cac-42fa-91be-29b60b170186")
-	)
-	(no_connect
 		(at 264 140)
 		(uuid "3788eede-ae10-443a-a8b5-87b56aa4271f")
 	)
 	(no_connect
 		(at 63 157)
 		(uuid "395180db-e54a-43bf-995b-d47a6e284b08")
-	)
-	(no_connect
-		(at 264 69)
-		(uuid "582a6cad-b0a5-4142-a4c2-a727ecd9c90a")
 	)
 	(no_connect
 		(at 264 25)
@@ -13508,14 +13479,6 @@
 	(no_connect
 		(at 102 184)
 		(uuid "9cd050ef-b1c5-40a8-a272-e6cf865eb3dd")
-	)
-	(no_connect
-		(at 264 75)
-		(uuid "a7b57c7c-fd2b-446c-a916-bd569369b087")
-	)
-	(no_connect
-		(at 264 78)
-		(uuid "bd4cc868-6c3b-44f1-bb19-0162364b606c")
 	)
 	(no_connect
 		(at 28 181)
@@ -14013,6 +13976,16 @@
 	)
 	(wire
 		(pts
+			(xy 259 75) (xy 264 75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368bbcee-c53c-48d3-8bdf-699b8c647936")
+	)
+	(wire
+		(pts
 			(xy 58 38) (xy 66 38)
 		)
 		(stroke
@@ -14100,6 +14073,16 @@
 			(type default)
 		)
 		(uuid "3e301b86-1255-4060-9289-122d5fa16b9b")
+	)
+	(wire
+		(pts
+			(xy 259 78) (xy 264 78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f809bba-9bb9-4b73-90f0-ad46b2d1c951")
 	)
 	(wire
 		(pts
@@ -14360,6 +14343,16 @@
 			(type default)
 		)
 		(uuid "5ac74af7-e40f-4412-83e3-4eb4007b1ea1")
+	)
+	(wire
+		(pts
+			(xy 63 172) (xy 73 172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb80c03-e451-43cd-a6dc-ca74fc5b7495")
 	)
 	(wire
 		(pts
@@ -15490,6 +15483,16 @@
 			(type default)
 		)
 		(uuid "d08a3cc3-16b7-4de6-84de-ed09d9825035")
+	)
+	(wire
+		(pts
+			(xy 259 69) (xy 264 69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cc54dc-7786-44e9-9fdd-ae56697faf0f")
 	)
 	(wire
 		(pts
@@ -17044,6 +17047,28 @@
 		)
 		(uuid "837cac79-1654-4bca-8c92-30170bc5215b")
 	)
+	(hierarchical_label "LED_1"
+		(shape output)
+		(at 259 69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86be1aa5-71e2-4201-b9c8-0f8ee0e1da33")
+	)
+	(hierarchical_label "LED_3"
+		(shape output)
+		(at 259 78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8722d43b-cfd2-4684-97e9-f8c1ee464403")
+	)
 	(hierarchical_label "OUTPUT_6"
 		(shape bidirectional)
 		(at 151 173 0)
@@ -17098,6 +17123,17 @@
 			(justify left)
 		)
 		(uuid "a97ad65a-7448-4d98-8a87-111cec58b29d")
+	)
+	(hierarchical_label "LED_4"
+		(shape output)
+		(at 73 172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac9304bd-bb8f-45c4-bb73-2f8859a4610a")
 	)
 	(hierarchical_label "OUTPUT_2"
 		(shape bidirectional)
@@ -17175,6 +17211,17 @@
 			(justify left)
 		)
 		(uuid "c0aae78b-f206-451d-a1eb-a744000ef4c8")
+	)
+	(hierarchical_label "LED_2"
+		(shape output)
+		(at 259 75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1916e9e-1aaf-4d3a-af7d-07c6b6aeb3f2")
 	)
 	(hierarchical_label "SDMMC_D2"
 		(shape bidirectional)

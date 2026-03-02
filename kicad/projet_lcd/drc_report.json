@@ -1,0 +1,2885 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-03-02T17:14:50+0100",
+    "kicad_version": "9.0.5",
+    "schematic_parity": [],
+    "source": "projet_lcd.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'SDRAM' clearance 0.1000 mm; actual 0.0923 mm)",
+            "items": [
+                {
+                    "description": "Pad 36 [/Ethernet/RMII_MDIO] of U1 on F.Cu",
+                    "pos": {
+                        "x": 121.3364,
+                        "y": 92.9
+                    },
+                    "uuid": "499868ca-515a-4797-9b1d-80d5fc0ed981"
+                },
+                {
+                    "description": "Track [FMC_D3] on F.Cu, length 24.7487 mm",
+                    "pos": {
+                        "x": 120.356,
+                        "y": 95.15
+                    },
+                    "uuid": "b6dfa8c1-35d9-4f4e-ac7f-1fec26ff3bb1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.0820 mm)",
+            "items": [
+                {
+                    "description": "Track [FMC_D0] on F.Cu, length 12.2946 mm",
+                    "pos": {
+                        "x": 130.120622,
+                        "y": 86.9
+                    },
+                    "uuid": "9f340ed1-4d9e-4ae9-ad2e-7a0a63e4ed56"
+                },
+                {
+                    "description": "Pad 37 [unconnected-(U1A-PA3-Pad37)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 123.356,
+                        "y": 94.9196
+                    },
+                    "uuid": "ad15a683-95e9-4bbf-9f77-81cab924310f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 95.106,
+                        "y": 53.07
+                    },
+                    "uuid": "203b84b6-f7f4-4117-866a-af82e7a138ea"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 95.106,
+                        "y": 53.07
+                    },
+                    "uuid": "203b84b6-f7f4-4117-866a-af82e7a138ea"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.1449 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 215.106,
+                        "y": 48.15
+                    },
+                    "uuid": "d81d4cf7-01b1-4330-83ca-29a5e3a75975"
+                },
+                {
+                    "description": "Segment of J4 on F.Silkscreen",
+                    "pos": {
+                        "x": 207.468077,
+                        "y": 76.847968
+                    },
+                    "uuid": "68557596-c019-452b-990f-daf3220b9a97"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.1449 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 215.106,
+                        "y": 48.15
+                    },
+                    "uuid": "d81d4cf7-01b1-4330-83ca-29a5e3a75975"
+                },
+                {
+                    "description": "Segment of J4 on F.Silkscreen",
+                    "pos": {
+                        "x": 214.834092,
+                        "y": 60.591936
+                    },
+                    "uuid": "98459794-2ed8-430f-8d54-b6e229a66c1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.1449 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 215.106,
+                        "y": 48.15
+                    },
+                    "uuid": "d81d4cf7-01b1-4330-83ca-29a5e3a75975"
+                },
+                {
+                    "description": "Segment of J4 on F.Silkscreen",
+                    "pos": {
+                        "x": 214.834092,
+                        "y": 76.847968
+                    },
+                    "uuid": "5817cfd7-30fe-4e45-90f7-405ac486777d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R45",
+                    "pos": {
+                        "x": 143.35,
+                        "y": 63.95
+                    },
+                    "uuid": "84f36033-234c-45c7-b470-9e3ce0ba12bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1035 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R49",
+                    "pos": {
+                        "x": 144.856,
+                        "y": 65.15
+                    },
+                    "uuid": "06b07b7c-c99a-4579-b182-11c85a685808"
+                },
+                {
+                    "description": "Reference field of R45",
+                    "pos": {
+                        "x": 143.35,
+                        "y": 63.95
+                    },
+                    "uuid": "84f36033-234c-45c7-b470-9e3ce0ba12bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1034 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R46",
+                    "pos": {
+                        "x": 132.606,
+                        "y": 64.4
+                    },
+                    "uuid": "159eecbf-cc51-46b1-ac33-d0d4a1eeed41"
+                },
+                {
+                    "description": "Segment of R46 on F.Silkscreen",
+                    "pos": {
+                        "x": 132.011,
+                        "y": 65.105
+                    },
+                    "uuid": "9555cbda-066b-443e-b8d7-7055fe14421f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1034 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R46",
+                    "pos": {
+                        "x": 132.606,
+                        "y": 64.4
+                    },
+                    "uuid": "159eecbf-cc51-46b1-ac33-d0d4a1eeed41"
+                },
+                {
+                    "description": "Segment of R46 on F.Silkscreen",
+                    "pos": {
+                        "x": 132.011,
+                        "y": 65.105
+                    },
+                    "uuid": "c61c0dac-99a9-4ae2-aaf6-f7e778647ce7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1259 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R46",
+                    "pos": {
+                        "x": 132.606,
+                        "y": 64.4
+                    },
+                    "uuid": "159eecbf-cc51-46b1-ac33-d0d4a1eeed41"
+                },
+                {
+                    "description": "Segment of R46 on F.Silkscreen",
+                    "pos": {
+                        "x": 133.201,
+                        "y": 65.105
+                    },
+                    "uuid": "c29eae09-f706-4086-bef4-a052eb4b1b47"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1388 mm)",
+            "items": [
+                {
+                    "description": "Segment of R51 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.811,
+                        "y": 65.895
+                    },
+                    "uuid": "29641161-d604-4b2b-9805-5b1db38d4c26"
+                },
+                {
+                    "description": "Reference field of R51",
+                    "pos": {
+                        "x": 135.55,
+                        "y": 64.85
+                    },
+                    "uuid": "6974657b-ec27-422a-81d9-eb37ee1ee0e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1333 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R51",
+                    "pos": {
+                        "x": 135.55,
+                        "y": 64.85
+                    },
+                    "uuid": "6974657b-ec27-422a-81d9-eb37ee1ee0e1"
+                },
+                {
+                    "description": "Segment of R51 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.811,
+                        "y": 64.405
+                    },
+                    "uuid": "70905468-1291-450c-ac17-c288fd89ffdd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1333 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R51",
+                    "pos": {
+                        "x": 135.55,
+                        "y": 64.85
+                    },
+                    "uuid": "6974657b-ec27-422a-81d9-eb37ee1ee0e1"
+                },
+                {
+                    "description": "Segment of R51 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.811,
+                        "y": 64.405
+                    },
+                    "uuid": "cef8d92e-de1f-4aba-ae09-ea8ab05ac27e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R45",
+                    "pos": {
+                        "x": 143.35,
+                        "y": 63.95
+                    },
+                    "uuid": "84f36033-234c-45c7-b470-9e3ce0ba12bc"
+                },
+                {
+                    "description": "Segment of R49 on F.Silkscreen",
+                    "pos": {
+                        "x": 143.651,
+                        "y": 64.555
+                    },
+                    "uuid": "f01760aa-850e-4203-8f07-87fd8adfd4cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R49",
+                    "pos": {
+                        "x": 144.856,
+                        "y": 65.15
+                    },
+                    "uuid": "06b07b7c-c99a-4579-b182-11c85a685808"
+                },
+                {
+                    "description": "Segment of R49 on F.Silkscreen",
+                    "pos": {
+                        "x": 143.651,
+                        "y": 64.555
+                    },
+                    "uuid": "f01760aa-850e-4203-8f07-87fd8adfd4cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0221 mm)",
+            "items": [
+                {
+                    "description": "Segment of R49 on F.Silkscreen",
+                    "pos": {
+                        "x": 143.651,
+                        "y": 64.555
+                    },
+                    "uuid": "47200482-0f37-4215-9193-6fa1da2f5257"
+                },
+                {
+                    "description": "Reference field of R45",
+                    "pos": {
+                        "x": 143.35,
+                        "y": 63.95
+                    },
+                    "uuid": "84f36033-234c-45c7-b470-9e3ce0ba12bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R49",
+                    "pos": {
+                        "x": 144.856,
+                        "y": 65.15
+                    },
+                    "uuid": "06b07b7c-c99a-4579-b182-11c85a685808"
+                },
+                {
+                    "description": "Segment of R49 on F.Silkscreen",
+                    "pos": {
+                        "x": 143.651,
+                        "y": 64.555
+                    },
+                    "uuid": "47200482-0f37-4215-9193-6fa1da2f5257"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R49",
+                    "pos": {
+                        "x": 144.856,
+                        "y": 65.15
+                    },
+                    "uuid": "06b07b7c-c99a-4579-b182-11c85a685808"
+                },
+                {
+                    "description": "Segment of R49 on F.Silkscreen",
+                    "pos": {
+                        "x": 143.651,
+                        "y": 65.745
+                    },
+                    "uuid": "e3f9fc34-7062-4020-b023-0538e3c3ea8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R49",
+                    "pos": {
+                        "x": 144.856,
+                        "y": 65.15
+                    },
+                    "uuid": "06b07b7c-c99a-4579-b182-11c85a685808"
+                },
+                {
+                    "description": "Segment of R49 on F.Silkscreen",
+                    "pos": {
+                        "x": 143.651,
+                        "y": 65.745
+                    },
+                    "uuid": "457dd942-799f-450f-8dd8-71ea6cd55490"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1178 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 137.456,
+                        "y": 70.3
+                    },
+                    "uuid": "677e15f1-7226-4b18-8f9a-9f1a3d90451d"
+                },
+                {
+                    "description": "Segment of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 136.401,
+                        "y": 69.555
+                    },
+                    "uuid": "8ee26778-e8ae-4ab7-8d23-6af0e972bb34"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0978 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R16",
+                    "pos": {
+                        "x": 159.0,
+                        "y": 126.75
+                    },
+                    "uuid": "6710a161-bb1e-49ea-8686-d2449055d26c"
+                },
+                {
+                    "description": "Segment of R16 on F.Silkscreen",
+                    "pos": {
+                        "x": 159.6905,
+                        "y": 128.345
+                    },
+                    "uuid": "f77ed662-3344-4852-b9a2-79d045e4cccb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1455 mm)",
+            "items": [
+                {
+                    "description": "Segment of C37 on F.Silkscreen",
+                    "pos": {
+                        "x": 167.7305,
+                        "y": 127.195
+                    },
+                    "uuid": "320c34bb-0080-4c47-a435-ee7e5042050b"
+                },
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 163.4355,
+                        "y": 127.548
+                    },
+                    "uuid": "5ebdf7ca-cce8-430e-a6e3-94cae372d730"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1455 mm)",
+            "items": [
+                {
+                    "description": "Segment of C37 on F.Silkscreen",
+                    "pos": {
+                        "x": 164.5405,
+                        "y": 127.195
+                    },
+                    "uuid": "1ba95c60-2439-46f2-ac6e-6a6e9b7df1fe"
+                },
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 163.4355,
+                        "y": 127.548
+                    },
+                    "uuid": "5ebdf7ca-cce8-430e-a6e3-94cae372d730"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1488 mm)",
+            "items": [
+                {
+                    "description": "Segment of C37 on F.Silkscreen",
+                    "pos": {
+                        "x": 164.5405,
+                        "y": 125.305
+                    },
+                    "uuid": "6a08be09-e19f-42ab-a92c-78bbc19557d2"
+                },
+                {
+                    "description": "Reference field of C37",
+                    "pos": {
+                        "x": 166.9355,
+                        "y": 124.55
+                    },
+                    "uuid": "ec93ca96-bd84-4f30-934e-85e5df743445"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1112 mm)",
+            "items": [
+                {
+                    "description": "Segment of C52 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.3305,
+                        "y": 139.995
+                    },
+                    "uuid": "39d59c96-1f83-46e7-8ae2-3c8a3036c6fd"
+                },
+                {
+                    "description": "Reference field of C52",
+                    "pos": {
+                        "x": 166.7355,
+                        "y": 140.803
+                    },
+                    "uuid": "fe80896a-8a01-4faa-a2bd-4afd14a052bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1488 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R10",
+                    "pos": {
+                        "x": 169.806,
+                        "y": 132.45
+                    },
+                    "uuid": "41e6533c-efe3-4f93-b6b3-bc10a6b990a4"
+                },
+                {
+                    "description": "Segment of R20 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.8405,
+                        "y": 133.205
+                    },
+                    "uuid": "80a492e9-b286-4367-a026-6bdae3920faf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1488 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R10",
+                    "pos": {
+                        "x": 169.806,
+                        "y": 132.45
+                    },
+                    "uuid": "41e6533c-efe3-4f93-b6b3-bc10a6b990a4"
+                },
+                {
+                    "description": "Segment of R20 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.8405,
+                        "y": 133.205
+                    },
+                    "uuid": "6061d661-8c9d-40cb-b338-91521439b242"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0727 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R19",
+                    "pos": {
+                        "x": 160.75,
+                        "y": 135.85
+                    },
+                    "uuid": "20235ad2-c6c5-4e49-bf1a-f6a352e73529"
+                },
+                {
+                    "description": "Segment of R9 on F.Silkscreen",
+                    "pos": {
+                        "x": 159.9805,
+                        "y": 137.145
+                    },
+                    "uuid": "61493e29-dac5-4570-b1d2-9e3ab75d2c86"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0868 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R19",
+                    "pos": {
+                        "x": 160.75,
+                        "y": 135.85
+                    },
+                    "uuid": "20235ad2-c6c5-4e49-bf1a-f6a352e73529"
+                },
+                {
+                    "description": "Segment of R9 on F.Silkscreen",
+                    "pos": {
+                        "x": 159.9805,
+                        "y": 137.145
+                    },
+                    "uuid": "b41d092b-f9b6-49ae-a3a4-48ad0879fa99"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0995 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R19",
+                    "pos": {
+                        "x": 160.75,
+                        "y": 135.85
+                    },
+                    "uuid": "20235ad2-c6c5-4e49-bf1a-f6a352e73529"
+                },
+                {
+                    "description": "Segment of R19 on F.Silkscreen",
+                    "pos": {
+                        "x": 161.455,
+                        "y": 134.855
+                    },
+                    "uuid": "9c45b702-bff9-404e-89d6-984824487eea"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0988 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R19",
+                    "pos": {
+                        "x": 160.75,
+                        "y": 135.85
+                    },
+                    "uuid": "20235ad2-c6c5-4e49-bf1a-f6a352e73529"
+                },
+                {
+                    "description": "Segment of R19 on F.Silkscreen",
+                    "pos": {
+                        "x": 161.455,
+                        "y": 134.855
+                    },
+                    "uuid": "c2c50a94-a107-4ec3-ab3f-f635a4bb09ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0988 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R19",
+                    "pos": {
+                        "x": 160.75,
+                        "y": 135.85
+                    },
+                    "uuid": "20235ad2-c6c5-4e49-bf1a-f6a352e73529"
+                },
+                {
+                    "description": "Segment of R19 on F.Silkscreen",
+                    "pos": {
+                        "x": 161.455,
+                        "y": 136.745
+                    },
+                    "uuid": "794eff8d-ce12-466e-9b0b-efd340a16925"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1368 mm)",
+            "items": [
+                {
+                    "description": "Segment of C13 on F.Silkscreen",
+                    "pos": {
+                        "x": 135.901,
+                        "y": 97.655
+                    },
+                    "uuid": "87c53c63-e6ad-40bb-9920-9e10829f2a3f"
+                },
+                {
+                    "description": "Reference field of C13",
+                    "pos": {
+                        "x": 137.356,
+                        "y": 98.4
+                    },
+                    "uuid": "b3744e13-f9bd-4140-a4ed-c4bb5c7cf807"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0988 mm)",
+            "items": [
+                {
+                    "description": "Segment of C77 on F.Silkscreen",
+                    "pos": {
+                        "x": 127.361,
+                        "y": 102.855
+                    },
+                    "uuid": "471b689e-41a6-4433-92a2-cb8c25e82e88"
+                },
+                {
+                    "description": "Reference field of C77",
+                    "pos": {
+                        "x": 127.106,
+                        "y": 102.15
+                    },
+                    "uuid": "fb3dfd7b-f518-4ce7-a2ef-4e7f6a70843f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0988 mm)",
+            "items": [
+                {
+                    "description": "Segment of C14 on F.Silkscreen",
+                    "pos": {
+                        "x": 117.861,
+                        "y": 81.355
+                    },
+                    "uuid": "9a32d903-6974-435f-9484-3d2101b3b1d8"
+                },
+                {
+                    "description": "Reference field of C14",
+                    "pos": {
+                        "x": 118.106,
+                        "y": 80.65
+                    },
+                    "uuid": "eaccf608-851b-412a-bdb3-26cf81446fdf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0988 mm)",
+            "items": [
+                {
+                    "description": "Segment of C14 on F.Silkscreen",
+                    "pos": {
+                        "x": 117.861,
+                        "y": 83.945
+                    },
+                    "uuid": "74e3ae4f-70b8-4e70-93a5-1dce6473a553"
+                },
+                {
+                    "description": "Reference field of C14",
+                    "pos": {
+                        "x": 118.106,
+                        "y": 80.65
+                    },
+                    "uuid": "eaccf608-851b-412a-bdb3-26cf81446fdf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1108 mm)",
+            "items": [
+                {
+                    "description": "Segment of C14 on F.Silkscreen",
+                    "pos": {
+                        "x": 119.351,
+                        "y": 81.355
+                    },
+                    "uuid": "b3f24da8-ae4c-4fdd-b0ad-36b056b7194d"
+                },
+                {
+                    "description": "Reference field of C14",
+                    "pos": {
+                        "x": 118.106,
+                        "y": 80.65
+                    },
+                    "uuid": "eaccf608-851b-412a-bdb3-26cf81446fdf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C59 on F.Silkscreen",
+                    "pos": {
+                        "x": 176.560066,
+                        "y": 72.641934
+                    },
+                    "uuid": "42b7c8e8-f05f-4a93-b0b3-9c771b4fd5f4"
+                },
+                {
+                    "description": "Segment of C67 on F.Silkscreen",
+                    "pos": {
+                        "x": 178.338066,
+                        "y": 74.342934
+                    },
+                    "uuid": "b70b00e9-967a-4af1-84ee-f5bc9cbd0415"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C67 on F.Silkscreen",
+                    "pos": {
+                        "x": 176.848066,
+                        "y": 74.342934
+                    },
+                    "uuid": "8cdb2ddd-e9a8-4af1-98d6-8006607f958d"
+                },
+                {
+                    "description": "Segment of C59 on F.Silkscreen",
+                    "pos": {
+                        "x": 175.070066,
+                        "y": 72.641934
+                    },
+                    "uuid": "d0abbd84-c696-4a9e-a79f-3b050630daf6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C59 on F.Silkscreen",
+                    "pos": {
+                        "x": 176.560066,
+                        "y": 72.641934
+                    },
+                    "uuid": "42b7c8e8-f05f-4a93-b0b3-9c771b4fd5f4"
+                },
+                {
+                    "description": "Segment of C67 on F.Silkscreen",
+                    "pos": {
+                        "x": 176.848066,
+                        "y": 74.342934
+                    },
+                    "uuid": "8cdb2ddd-e9a8-4af1-98d6-8006607f958d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1151 mm)",
+            "items": [
+                {
+                    "description": "Segment of C70 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.773066,
+                        "y": 66.968934
+                    },
+                    "uuid": "b7b7a5dc-3f0d-4d68-b33f-3a5940cc392b"
+                },
+                {
+                    "description": "Segment of Y3 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.385053,
+                        "y": 64.40482
+                    },
+                    "uuid": "e37c2abc-66bb-43b5-97d7-f4cca224bc09"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1151 mm)",
+            "items": [
+                {
+                    "description": "Segment of C70 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.363066,
+                        "y": 66.968934
+                    },
+                    "uuid": "61db7060-fbdd-4165-b974-bffec8ea4d48"
+                },
+                {
+                    "description": "Segment of Y3 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.385053,
+                        "y": 64.40482
+                    },
+                    "uuid": "e37c2abc-66bb-43b5-97d7-f4cca224bc09"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0782 mm)",
+            "items": [
+                {
+                    "description": "Segment of FB3 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.2325,
+                        "y": 58.1265
+                    },
+                    "uuid": "483bc191-c0b4-4cc4-a254-e8bc9be03937"
+                },
+                {
+                    "description": "Reference field of FB3",
+                    "pos": {
+                        "x": 168.606,
+                        "y": 58.903
+                    },
+                    "uuid": "6b1e3da7-3e30-4958-809d-f1d0c02be04e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C58 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.528066,
+                        "y": 62.670934
+                    },
+                    "uuid": "160d1026-e71a-4268-9bb1-35ab77da104f"
+                },
+                {
+                    "description": "Segment of C57 on F.Silkscreen",
+                    "pos": {
+                        "x": 176.306066,
+                        "y": 65.260934
+                    },
+                    "uuid": "26f50a73-4f70-407a-8447-f3348e233f56"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C57 on F.Silkscreen",
+                    "pos": {
+                        "x": 176.306066,
+                        "y": 65.260934
+                    },
+                    "uuid": "26f50a73-4f70-407a-8447-f3348e233f56"
+                },
+                {
+                    "description": "Segment of C58 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.528066,
+                        "y": 65.260934
+                    },
+                    "uuid": "958ec72f-902c-4adf-aa35-e14868827386"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C58 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.038066,
+                        "y": 62.670934
+                    },
+                    "uuid": "9b4ccf4f-de49-4364-9458-55da6190f2f0"
+                },
+                {
+                    "description": "Segment of C57 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.816066,
+                        "y": 65.260934
+                    },
+                    "uuid": "b21074f1-6d51-4693-b2bd-cf29b64a5870"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C58 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.528066,
+                        "y": 62.670934
+                    },
+                    "uuid": "160d1026-e71a-4268-9bb1-35ab77da104f"
+                },
+                {
+                    "description": "Segment of C57 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.816066,
+                        "y": 65.260934
+                    },
+                    "uuid": "b21074f1-6d51-4693-b2bd-cf29b64a5870"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C58 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.528066,
+                        "y": 65.260934
+                    },
+                    "uuid": "958ec72f-902c-4adf-aa35-e14868827386"
+                },
+                {
+                    "description": "Segment of C57 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.816066,
+                        "y": 65.260934
+                    },
+                    "uuid": "b21074f1-6d51-4693-b2bd-cf29b64a5870"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C57 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.816066,
+                        "y": 62.670934
+                    },
+                    "uuid": "466b4c6f-962e-4515-baaa-27fb7c258013"
+                },
+                {
+                    "description": "Segment of C58 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.038066,
+                        "y": 62.670934
+                    },
+                    "uuid": "9b4ccf4f-de49-4364-9458-55da6190f2f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C58 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.528066,
+                        "y": 62.670934
+                    },
+                    "uuid": "160d1026-e71a-4268-9bb1-35ab77da104f"
+                },
+                {
+                    "description": "Segment of C57 on F.Silkscreen",
+                    "pos": {
+                        "x": 174.816066,
+                        "y": 62.670934
+                    },
+                    "uuid": "466b4c6f-962e-4515-baaa-27fb7c258013"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1151 mm)",
+            "items": [
+                {
+                    "description": "Segment of Y3 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.385053,
+                        "y": 66.704794
+                    },
+                    "uuid": "2a449771-713a-4791-a71a-53471691fc9b"
+                },
+                {
+                    "description": "Segment of C70 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.773066,
+                        "y": 66.968934
+                    },
+                    "uuid": "b7b7a5dc-3f0d-4d68-b33f-3a5940cc392b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1151 mm)",
+            "items": [
+                {
+                    "description": "Segment of Y3 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.385053,
+                        "y": 66.704794
+                    },
+                    "uuid": "2a449771-713a-4791-a71a-53471691fc9b"
+                },
+                {
+                    "description": "Segment of C70 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.363066,
+                        "y": 66.968934
+                    },
+                    "uuid": "61db7060-fbdd-4165-b974-bffec8ea4d48"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0851 mm)",
+            "items": [
+                {
+                    "description": "Segment of C60 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.355066,
+                        "y": 70.577934
+                    },
+                    "uuid": "13e51b16-44b8-4b6b-a623-fc1f9b107361"
+                },
+                {
+                    "description": "Segment of C61 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.363066,
+                        "y": 72.302934
+                    },
+                    "uuid": "8da451de-ac7c-43bb-b56e-25e1560e9837"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0850 mm)",
+            "items": [
+                {
+                    "description": "Segment of C60 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.355066,
+                        "y": 70.577934
+                    },
+                    "uuid": "13e51b16-44b8-4b6b-a623-fc1f9b107361"
+                },
+                {
+                    "description": "Segment of C61 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.773066,
+                        "y": 72.302934
+                    },
+                    "uuid": "e2a67ea9-5280-4fc1-8ac4-2fb0bac3ee86"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0851 mm)",
+            "items": [
+                {
+                    "description": "Segment of C60 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.355066,
+                        "y": 72.067934
+                    },
+                    "uuid": "540b045c-4dd0-4efb-9d47-41bca403d2ba"
+                },
+                {
+                    "description": "Segment of C61 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.363066,
+                        "y": 72.302934
+                    },
+                    "uuid": "8da451de-ac7c-43bb-b56e-25e1560e9837"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C69 on F.Silkscreen",
+                    "pos": {
+                        "x": 167.966066,
+                        "y": 68.746934
+                    },
+                    "uuid": "1a2e58ca-e688-4000-b537-aa1842caa434"
+                },
+                {
+                    "description": "Segment of C70 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.363066,
+                        "y": 68.458934
+                    },
+                    "uuid": "ecb3da4f-900c-40d7-a15a-4957d2dcf6d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C69 on F.Silkscreen",
+                    "pos": {
+                        "x": 165.376066,
+                        "y": 68.746934
+                    },
+                    "uuid": "3c6796d2-139b-4557-bb75-9f80a4c73ca1"
+                },
+                {
+                    "description": "Segment of C70 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.363066,
+                        "y": 68.458934
+                    },
+                    "uuid": "ecb3da4f-900c-40d7-a15a-4957d2dcf6d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0850 mm)",
+            "items": [
+                {
+                    "description": "Segment of C60 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.355066,
+                        "y": 72.067934
+                    },
+                    "uuid": "540b045c-4dd0-4efb-9d47-41bca403d2ba"
+                },
+                {
+                    "description": "Segment of C61 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.773066,
+                        "y": 72.302934
+                    },
+                    "uuid": "e2a67ea9-5280-4fc1-8ac4-2fb0bac3ee86"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0851 mm)",
+            "items": [
+                {
+                    "description": "Segment of C61 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.773066,
+                        "y": 72.302934
+                    },
+                    "uuid": "e2a67ea9-5280-4fc1-8ac4-2fb0bac3ee86"
+                },
+                {
+                    "description": "Segment of C60 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.765066,
+                        "y": 72.067934
+                    },
+                    "uuid": "ed7f0cfd-09f3-43bf-a8bd-1622e8595db2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0850 mm)",
+            "items": [
+                {
+                    "description": "Segment of C61 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.773066,
+                        "y": 73.792934
+                    },
+                    "uuid": "2dac63cc-214d-4ebe-80b8-87f8c27f9889"
+                },
+                {
+                    "description": "Segment of C60 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.355066,
+                        "y": 72.067934
+                    },
+                    "uuid": "540b045c-4dd0-4efb-9d47-41bca403d2ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0851 mm)",
+            "items": [
+                {
+                    "description": "Segment of C61 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.773066,
+                        "y": 73.792934
+                    },
+                    "uuid": "2dac63cc-214d-4ebe-80b8-87f8c27f9889"
+                },
+                {
+                    "description": "Segment of C60 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.765066,
+                        "y": 72.067934
+                    },
+                    "uuid": "ed7f0cfd-09f3-43bf-a8bd-1622e8595db2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1380 mm)",
+            "items": [
+                {
+                    "description": "Segment of C69 on F.Silkscreen",
+                    "pos": {
+                        "x": 165.376066,
+                        "y": 68.746934
+                    },
+                    "uuid": "3c6796d2-139b-4557-bb75-9f80a4c73ca1"
+                },
+                {
+                    "description": "Segment of C70 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.773066,
+                        "y": 68.458934
+                    },
+                    "uuid": "fd97022d-d44c-4f0c-ad8a-f1df167a4f8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1441 mm)",
+            "items": [
+                {
+                    "description": "Segment of R24 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.381066,
+                        "y": 83.334934
+                    },
+                    "uuid": "f82ff1ba-204d-4b5a-82cd-ac04b358717a"
+                },
+                {
+                    "description": "Segment of R32 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.388066,
+                        "y": 83.040934
+                    },
+                    "uuid": "ff46c18d-9eb2-4424-81fd-d58861e8aa66"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1441 mm)",
+            "items": [
+                {
+                    "description": "Segment of R32 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.388066,
+                        "y": 83.040934
+                    },
+                    "uuid": "f5f2373b-b3ba-41ae-8492-803edc785d55"
+                },
+                {
+                    "description": "Segment of R24 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.381066,
+                        "y": 83.334934
+                    },
+                    "uuid": "f82ff1ba-204d-4b5a-82cd-ac04b358717a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1440 mm)",
+            "items": [
+                {
+                    "description": "Segment of R24 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.381066,
+                        "y": 83.334934
+                    },
+                    "uuid": "19827145-002e-4048-824b-7f200c298493"
+                },
+                {
+                    "description": "Segment of R32 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.388066,
+                        "y": 83.040934
+                    },
+                    "uuid": "ff46c18d-9eb2-4424-81fd-d58861e8aa66"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1440 mm)",
+            "items": [
+                {
+                    "description": "Segment of R24 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.381066,
+                        "y": 83.334934
+                    },
+                    "uuid": "19827145-002e-4048-824b-7f200c298493"
+                },
+                {
+                    "description": "Segment of R32 on F.Silkscreen",
+                    "pos": {
+                        "x": 166.388066,
+                        "y": 83.040934
+                    },
+                    "uuid": "f5f2373b-b3ba-41ae-8492-803edc785d55"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1440 mm)",
+            "items": [
+                {
+                    "description": "Segment of R32 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.478066,
+                        "y": 83.040934
+                    },
+                    "uuid": "50a8a8df-ef1c-4668-907a-38a8cbcc9977"
+                },
+                {
+                    "description": "Segment of R24 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.471066,
+                        "y": 83.334934
+                    },
+                    "uuid": "6f4c56e6-adf0-4d3c-836d-407a68a92358"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1441 mm)",
+            "items": [
+                {
+                    "description": "Segment of R32 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.478066,
+                        "y": 83.040934
+                    },
+                    "uuid": "1a8a8598-b177-459d-9dd2-47a6b75bc548"
+                },
+                {
+                    "description": "Segment of R24 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.471066,
+                        "y": 83.334934
+                    },
+                    "uuid": "6f4c56e6-adf0-4d3c-836d-407a68a92358"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1440 mm)",
+            "items": [
+                {
+                    "description": "Segment of R32 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.478066,
+                        "y": 83.040934
+                    },
+                    "uuid": "50a8a8df-ef1c-4668-907a-38a8cbcc9977"
+                },
+                {
+                    "description": "Segment of R24 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.471066,
+                        "y": 83.334934
+                    },
+                    "uuid": "c162b132-aa0d-4f22-927a-b5328dbb0926"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1441 mm)",
+            "items": [
+                {
+                    "description": "Segment of R32 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.478066,
+                        "y": 83.040934
+                    },
+                    "uuid": "1a8a8598-b177-459d-9dd2-47a6b75bc548"
+                },
+                {
+                    "description": "Segment of R24 on F.Silkscreen",
+                    "pos": {
+                        "x": 168.471066,
+                        "y": 83.334934
+                    },
+                    "uuid": "c162b132-aa0d-4f22-927a-b5328dbb0926"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 97.8
+                    },
+                    "uuid": "20cbb1ba-30e3-4023-8735-cb2db79e2b3a"
+                },
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 101.3
+                    },
+                    "uuid": "d513b579-6b2f-4caf-8261-45ef9538592d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 97.8
+                    },
+                    "uuid": "20cbb1ba-30e3-4023-8735-cb2db79e2b3a"
+                },
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 104.5
+                    },
+                    "uuid": "4e3d44be-5c03-4c6a-a823-d4d1e34bcbc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 101.0
+                    },
+                    "uuid": "90a88475-6307-4d07-9e73-e2b91d6229f8"
+                },
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 101.3
+                    },
+                    "uuid": "d513b579-6b2f-4caf-8261-45ef9538592d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 104.5
+                    },
+                    "uuid": "4e3d44be-5c03-4c6a-a823-d4d1e34bcbc7"
+                },
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 101.0
+                    },
+                    "uuid": "90a88475-6307-4d07-9e73-e2b91d6229f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 101.3
+                    },
+                    "uuid": "310ce822-7d78-4a7a-825a-4933916ff7dc"
+                },
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 101.0
+                    },
+                    "uuid": "606518ce-583e-45ef-8501-fc423939c444"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 101.0
+                    },
+                    "uuid": "606518ce-583e-45ef-8501-fc423939c444"
+                },
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 104.5
+                    },
+                    "uuid": "a1709452-1851-421f-a83a-1ec16735bf73"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 97.8
+                    },
+                    "uuid": "00386903-bfff-44fe-8cd8-7235e6dc441b"
+                },
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 101.3
+                    },
+                    "uuid": "310ce822-7d78-4a7a-825a-4933916ff7dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D5 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 97.8
+                    },
+                    "uuid": "00386903-bfff-44fe-8cd8-7235e6dc441b"
+                },
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 104.5
+                    },
+                    "uuid": "a1709452-1851-421f-a83a-1ec16735bf73"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0851 mm)",
+            "items": [
+                {
+                    "description": "Reference field of D11",
+                    "pos": {
+                        "x": 180.106,
+                        "y": 102.9
+                    },
+                    "uuid": "062e4ec8-4ac0-462b-9aeb-cda525d12a5a"
+                },
+                {
+                    "description": "Segment of D11 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 104.5
+                    },
+                    "uuid": "4e3d44be-5c03-4c6a-a823-d4d1e34bcbc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D13 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 100.725
+                    },
+                    "uuid": "840b0995-64aa-4e3c-8a08-bbb9ea2e630b"
+                },
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 94.025
+                    },
+                    "uuid": "aec86281-ae77-4b1c-8b7d-c4a28c7c8647"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D13 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 100.725
+                    },
+                    "uuid": "840b0995-64aa-4e3c-8a08-bbb9ea2e630b"
+                },
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 97.225
+                    },
+                    "uuid": "e470da58-2643-4a8f-8916-bb796d4e845a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 94.025
+                    },
+                    "uuid": "8edc44b7-8ab6-4200-90b1-9129d507d36f"
+                },
+                {
+                    "description": "Segment of D13 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 97.525
+                    },
+                    "uuid": "a6fcb0f7-89b7-44f1-9776-1e60235bcbd5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D13 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 100.725
+                    },
+                    "uuid": "1d2a8e0d-0cd1-4432-9345-acaa5263d5a3"
+                },
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 94.025
+                    },
+                    "uuid": "8edc44b7-8ab6-4200-90b1-9129d507d36f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 97.225
+                    },
+                    "uuid": "a3ea561d-e031-483a-b7f2-14f4887585cb"
+                },
+                {
+                    "description": "Segment of D13 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 97.525
+                    },
+                    "uuid": "a6fcb0f7-89b7-44f1-9776-1e60235bcbd5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D13 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 100.725
+                    },
+                    "uuid": "1d2a8e0d-0cd1-4432-9345-acaa5263d5a3"
+                },
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 97.225
+                    },
+                    "uuid": "a3ea561d-e031-483a-b7f2-14f4887585cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D13 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 97.525
+                    },
+                    "uuid": "a1d80974-2367-4e4b-a5ff-22154ad454e0"
+                },
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 94.025
+                    },
+                    "uuid": "aec86281-ae77-4b1c-8b7d-c4a28c7c8647"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D13 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 97.525
+                    },
+                    "uuid": "a1d80974-2367-4e4b-a5ff-22154ad454e0"
+                },
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 97.225
+                    },
+                    "uuid": "e470da58-2643-4a8f-8916-bb796d4e845a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D10 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 90.3
+                    },
+                    "uuid": "051f09cb-4877-442d-bbf6-ac742bdd73c9"
+                },
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 86.8
+                    },
+                    "uuid": "5b3f7863-bb18-4c7a-8d66-51aed3af7580"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 86.8
+                    },
+                    "uuid": "5b3f7863-bb18-4c7a-8d66-51aed3af7580"
+                },
+                {
+                    "description": "Segment of D10 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 93.5
+                    },
+                    "uuid": "c975f522-05bd-402d-b745-eb3d1dbf5695"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D10 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 90.3
+                    },
+                    "uuid": "051f09cb-4877-442d-bbf6-ac742bdd73c9"
+                },
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 90.0
+                    },
+                    "uuid": "1b19ae79-c7d9-45b9-b552-5f740d8cb485"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 90.0
+                    },
+                    "uuid": "1b19ae79-c7d9-45b9-b552-5f740d8cb485"
+                },
+                {
+                    "description": "Segment of D10 on F.Silkscreen",
+                    "pos": {
+                        "x": 181.606,
+                        "y": 93.5
+                    },
+                    "uuid": "c975f522-05bd-402d-b745-eb3d1dbf5695"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 86.8
+                    },
+                    "uuid": "5988989f-44e7-4bde-afab-c6cb62ff2da2"
+                },
+                {
+                    "description": "Segment of D10 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 90.3
+                    },
+                    "uuid": "bf7f04ee-0339-49f0-a379-a0f48b404171"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 86.8
+                    },
+                    "uuid": "5988989f-44e7-4bde-afab-c6cb62ff2da2"
+                },
+                {
+                    "description": "Segment of D10 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 93.5
+                    },
+                    "uuid": "cbea5589-5ebd-4f20-9807-63a7a1499163"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 90.0
+                    },
+                    "uuid": "af9497db-3a25-4ebc-882b-3000e3305b86"
+                },
+                {
+                    "description": "Segment of D10 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 90.3
+                    },
+                    "uuid": "bf7f04ee-0339-49f0-a379-a0f48b404171"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D4 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 90.0
+                    },
+                    "uuid": "af9497db-3a25-4ebc-882b-3000e3305b86"
+                },
+                {
+                    "description": "Segment of D10 on F.Silkscreen",
+                    "pos": {
+                        "x": 187.606,
+                        "y": 93.5
+                    },
+                    "uuid": "cbea5589-5ebd-4f20-9807-63a7a1499163"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Segment of R41 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.861,
+                        "y": 82.695
+                    },
+                    "uuid": "4dee07b6-b0c9-482d-bc57-a07b790a1172"
+                },
+                {
+                    "description": "Segment of R42 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.601,
+                        "y": 82.695
+                    },
+                    "uuid": "5b22b6e6-48d9-4574-8c58-d2454e00a971"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Segment of R41 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.861,
+                        "y": 82.695
+                    },
+                    "uuid": "4dee07b6-b0c9-482d-bc57-a07b790a1172"
+                },
+                {
+                    "description": "Segment of R42 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.601,
+                        "y": 82.695
+                    },
+                    "uuid": "f3b22289-575e-43f2-bfbe-b871bbb7c21e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Segment of R42 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.601,
+                        "y": 80.105
+                    },
+                    "uuid": "6c2b6f70-3da4-455a-af53-134993d8b322"
+                },
+                {
+                    "description": "Segment of R41 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.861,
+                        "y": 80.105
+                    },
+                    "uuid": "d0ecf90e-c64d-47d2-9d4a-e6f8625e3d14"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Segment of R41 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.861,
+                        "y": 80.105
+                    },
+                    "uuid": "d0ecf90e-c64d-47d2-9d4a-e6f8625e3d14"
+                },
+                {
+                    "description": "Segment of R42 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.601,
+                        "y": 80.105
+                    },
+                    "uuid": "fa747fa6-07c7-491a-9ead-6384fc6f0311"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Segment of R42 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.601,
+                        "y": 80.105
+                    },
+                    "uuid": "6c2b6f70-3da4-455a-af53-134993d8b322"
+                },
+                {
+                    "description": "Segment of R41 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.861,
+                        "y": 80.105
+                    },
+                    "uuid": "896c847d-c47e-40e9-b1ce-4447a864b8e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Segment of R41 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.861,
+                        "y": 80.105
+                    },
+                    "uuid": "896c847d-c47e-40e9-b1ce-4447a864b8e6"
+                },
+                {
+                    "description": "Segment of R42 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.601,
+                        "y": 80.105
+                    },
+                    "uuid": "fa747fa6-07c7-491a-9ead-6384fc6f0311"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Segment of R42 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.601,
+                        "y": 82.695
+                    },
+                    "uuid": "5b22b6e6-48d9-4574-8c58-d2454e00a971"
+                },
+                {
+                    "description": "Segment of R41 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.861,
+                        "y": 82.695
+                    },
+                    "uuid": "67e48bda-a216-4130-8cd8-f18216b8bd07"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1100 mm)",
+            "items": [
+                {
+                    "description": "Segment of R41 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.861,
+                        "y": 82.695
+                    },
+                    "uuid": "67e48bda-a216-4130-8cd8-f18216b8bd07"
+                },
+                {
+                    "description": "Segment of R42 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.601,
+                        "y": 82.695
+                    },
+                    "uuid": "f3b22289-575e-43f2-bfbe-b871bbb7c21e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 105.025
+                    },
+                    "uuid": "1a918b27-7ea1-4fdc-8844-23b88dc30faf"
+                },
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 108.525
+                    },
+                    "uuid": "e0fa1bea-1390-48b6-8106-9a79e5a5ef24"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 105.025
+                    },
+                    "uuid": "1a918b27-7ea1-4fdc-8844-23b88dc30faf"
+                },
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 111.725
+                    },
+                    "uuid": "d13554df-17e6-4058-97ed-bce969ac8c17"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 108.225
+                    },
+                    "uuid": "d568e148-92a5-4251-8844-d873e3d065e6"
+                },
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 108.525
+                    },
+                    "uuid": "e0fa1bea-1390-48b6-8106-9a79e5a5ef24"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 111.725
+                    },
+                    "uuid": "d13554df-17e6-4058-97ed-bce969ac8c17"
+                },
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 196.056,
+                        "y": 108.225
+                    },
+                    "uuid": "d568e148-92a5-4251-8844-d873e3d065e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 105.025
+                    },
+                    "uuid": "a720facd-d5f3-4e17-9740-ba7e3c984a68"
+                },
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 108.525
+                    },
+                    "uuid": "c8496742-f5f7-4a26-b617-6cb966a101a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 108.225
+                    },
+                    "uuid": "9f25630a-e8e4-414a-8c99-96bee29be890"
+                },
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 108.525
+                    },
+                    "uuid": "c8496742-f5f7-4a26-b617-6cb966a101a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 111.725
+                    },
+                    "uuid": "8b1511ee-ae1b-494d-bd89-176276bf5d56"
+                },
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 105.025
+                    },
+                    "uuid": "a720facd-d5f3-4e17-9740-ba7e3c984a68"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1470 mm)",
+            "items": [
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 111.725
+                    },
+                    "uuid": "8b1511ee-ae1b-494d-bd89-176276bf5d56"
+                },
+                {
+                    "description": "Segment of D6 on F.Silkscreen",
+                    "pos": {
+                        "x": 202.056,
+                        "y": 108.225
+                    },
+                    "uuid": "9f25630a-e8e4-414a-8c99-96bee29be890"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1112 mm)",
+            "items": [
+                {
+                    "description": "Segment of C29 on F.Silkscreen",
+                    "pos": {
+                        "x": 198.801,
+                        "y": 123.395
+                    },
+                    "uuid": "be8590c3-000c-4be1-9477-161dfe7becbb"
+                },
+                {
+                    "description": "Reference field of C29",
+                    "pos": {
+                        "x": 197.206,
+                        "y": 124.203
+                    },
+                    "uuid": "f567e71e-63cc-4a3d-97dc-08c1effe528a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1112 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R15",
+                    "pos": {
+                        "x": 186.8355,
+                        "y": 142.603
+                    },
+                    "uuid": "4397fdef-a9dc-4d95-abb9-8220d99a75ca"
+                },
+                {
+                    "description": "Segment of R15 on F.Silkscreen",
+                    "pos": {
+                        "x": 185.5405,
+                        "y": 141.795
+                    },
+                    "uuid": "9439f6db-58e3-42a1-a4f7-4d02a7432dcc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1233 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R15",
+                    "pos": {
+                        "x": 186.8355,
+                        "y": 142.603
+                    },
+                    "uuid": "4397fdef-a9dc-4d95-abb9-8220d99a75ca"
+                },
+                {
+                    "description": "Segment of R15 on F.Silkscreen",
+                    "pos": {
+                        "x": 185.5405,
+                        "y": 141.795
+                    },
+                    "uuid": "a6eeb9af-43ad-4d32-85e2-47ad2355bf50"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1112 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R15",
+                    "pos": {
+                        "x": 186.8355,
+                        "y": 142.603
+                    },
+                    "uuid": "4397fdef-a9dc-4d95-abb9-8220d99a75ca"
+                },
+                {
+                    "description": "Segment of R15 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.1305,
+                        "y": 141.795
+                    },
+                    "uuid": "7b2df151-e4dc-41a9-bc76-6363b2d88ec7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1233 mm)",
+            "items": [
+                {
+                    "description": "Segment of R15 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.1305,
+                        "y": 141.795
+                    },
+                    "uuid": "07de9fcb-88b9-4893-a431-5894a82545d1"
+                },
+                {
+                    "description": "Reference field of R15",
+                    "pos": {
+                        "x": 186.8355,
+                        "y": 142.603
+                    },
+                    "uuid": "4397fdef-a9dc-4d95-abb9-8220d99a75ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.0853 mm)",
+            "items": [
+                {
+                    "description": "Segment of D9 on F.Silkscreen",
+                    "pos": {
+                        "x": 188.809,
+                        "y": 141.8265
+                    },
+                    "uuid": "a90d3139-18bb-4b6b-958b-01333de5b91f"
+                },
+                {
+                    "description": "Reference field of D9",
+                    "pos": {
+                        "x": 190.1355,
+                        "y": 142.603
+                    },
+                    "uuid": "e81126e4-ed54-49f7-884d-1bc9aeb70dd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1450 mm)",
+            "items": [
+                {
+                    "description": "Segment of D9 on F.Silkscreen",
+                    "pos": {
+                        "x": 191.462,
+                        "y": 141.8265
+                    },
+                    "uuid": "58893d54-bdea-490f-a5b2-789dfcde4465"
+                },
+                {
+                    "description": "Reference field of D9",
+                    "pos": {
+                        "x": 190.1355,
+                        "y": 142.603
+                    },
+                    "uuid": "e81126e4-ed54-49f7-884d-1bc9aeb70dd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1482 mm)",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.16675,
+                        "y": 127.6
+                    },
+                    "uuid": "7159fdbd-b586-4a83-9972-5e9fbfb67190"
+                },
+                {
+                    "description": "Reference field of D3",
+                    "pos": {
+                        "x": 174.206,
+                        "y": 129.65
+                    },
+                    "uuid": "eecfeed4-f021-4425-9616-639c91d31490"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1482 mm)",
+            "items": [
+                {
+                    "description": "Segment of D3 on F.Silkscreen",
+                    "pos": {
+                        "x": 173.16675,
+                        "y": 129.5
+                    },
+                    "uuid": "3ee45a1d-5c55-47c8-8aaf-52d6a6967d24"
+                },
+                {
+                    "description": "Reference field of D3",
+                    "pos": {
+                        "x": 174.206,
+                        "y": 129.65
+                    },
+                    "uuid": "eecfeed4-f021-4425-9616-639c91d31490"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1332 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R35",
+                    "pos": {
+                        "x": 179.244066,
+                        "y": 58.315934
+                    },
+                    "uuid": "4542a768-3283-484f-a09a-15f0c722bef4"
+                },
+                {
+                    "description": "Segment of R35 on F.Silkscreen",
+                    "pos": {
+                        "x": 178.499066,
+                        "y": 59.814934
+                    },
+                    "uuid": "ea49db55-0160-4b28-95c3-be28e58bbd27"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1332 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R35",
+                    "pos": {
+                        "x": 179.244066,
+                        "y": 58.315934
+                    },
+                    "uuid": "4542a768-3283-484f-a09a-15f0c722bef4"
+                },
+                {
+                    "description": "Segment of R35 on F.Silkscreen",
+                    "pos": {
+                        "x": 179.989066,
+                        "y": 59.814934
+                    },
+                    "uuid": "926e920e-9457-463c-8f96-637dcf18ce93"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1067 mm)",
+            "items": [
+                {
+                    "description": "Segment of C59 on F.Silkscreen",
+                    "pos": {
+                        "x": 175.070066,
+                        "y": 75.231934
+                    },
+                    "uuid": "6977efe4-fd89-4c18-8441-723fea4d656f"
+                },
+                {
+                    "description": "Reference field of C59",
+                    "pos": {
+                        "x": 173.55,
+                        "y": 72.85
+                    },
+                    "uuid": "716b2195-6067-4358-8e5c-3df4224b9e2f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap (board setup constraints silk clearance 0.1500 mm; actual 0.1067 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C59",
+                    "pos": {
+                        "x": 173.55,
+                        "y": 72.85
+                    },
+                    "uuid": "716b2195-6067-4358-8e5c-3df4224b9e2f"
+                },
+                {
+                    "description": "Segment of C59 on F.Silkscreen",
+                    "pos": {
+                        "x": 175.070066,
+                        "y": 72.641934
+                    },
+                    "uuid": "d0abbd84-c696-4a9e-a79f-3b050630daf6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
