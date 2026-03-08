@@ -188,13 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.09,
-        0.127,
-        0.15,
-        0.2,
-        0.25,
-        0.3,
-        0.5
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -230,14 +224,6 @@
         {
           "diameter": 0.45,
           "drill": 0.2
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -528,7 +514,37 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "/SD Card/SDMMC_CLK": "rgb(0, 255, 255)",
+      "/SD Card/SDMMC_CMD": "rgb(0, 255, 255)",
+      "/SD Card/SDMMC_D0": "rgb(0, 255, 255)",
+      "/SD Card/SDMMC_D1": "rgb(0, 255, 255)",
+      "/SD Card/SDMMC_D2": "rgb(0, 255, 255)",
+      "/SD Card/SDMMC_D3": "rgb(0, 255, 255)",
+      "FMC_D0": "rgb(255, 255, 0)",
+      "FMC_D1": "rgb(255, 255, 0)",
+      "FMC_D10": "rgb(255, 255, 0)",
+      "FMC_D11": "rgb(255, 255, 0)",
+      "FMC_D12": "rgb(255, 255, 0)",
+      "FMC_D13": "rgb(255, 255, 0)",
+      "FMC_D14": "rgb(255, 255, 0)",
+      "FMC_D15": "rgb(255, 255, 0)",
+      "FMC_D2": "rgb(255, 255, 0)",
+      "FMC_D3": "rgb(255, 255, 0)",
+      "FMC_D4": "rgb(255, 255, 0)",
+      "FMC_D5": "rgb(255, 255, 0)",
+      "FMC_D6": "rgb(255, 255, 0)",
+      "FMC_D7": "rgb(255, 255, 0)",
+      "FMC_D8": "rgb(255, 255, 0)",
+      "FMC_D9": "rgb(255, 255, 0)",
+      "FMC_NBL0": "rgb(255, 255, 0)",
+      "FMC_NBL1": "rgb(255, 255, 0)",
+      "FMC_SDCKE0": "rgb(255, 153, 0)",
+      "FMC_SDNCAS": "rgb(255, 153, 0)",
+      "FMC_SDNE0": "rgb(255, 153, 0)",
+      "FMC_SDNRAS": "rgb(255, 153, 0)",
+      "FMC_SDNWE": "rgb(255, 153, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
